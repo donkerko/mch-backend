@@ -1,0 +1,4 @@
+Liste wird genutzt um einen überblick über angebote für kunden zu behalten
+
+Spalten: Kundenname;Kunde in Reonic erstellt;Datenaufnahme existiert;Angebot vorbereitet;Angebot gesendet am
+Zeilen: Name;TRUE wenn Kunde im Reonic erstellt, sonst leer;TRUE wenn es im "Datenaufnahmen"-Ordner einen Ordner mit dem Namen des Kunden gibt und dort eine Datenaufnahme-Datei mit allen benötigten Daten existiert, sonst leer;als TRUE markieren wenn ich (D) das Angebot so weit für M vorbereitet habe, sodass er nur noch die Solarmodule auf das Dach modellieren und das Angebot finalisieren und es als PDF exportieren muss, sonst leer; Datum wenn gesendet, sonst leer

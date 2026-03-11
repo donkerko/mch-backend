@@ -1,0 +1,6 @@
+Ablauf:
+
+1. Kunde sendet uns Mail mit Angebot (Angebot, welches er seinem Kunden gesendet hat) im Anhang
+2. Anhang (PDF) wird abgelegt und Informationen zum Angebot wird in unserer Liste ("C:\Users\PV\OneDrive\Sicherheitssysteme Vöcklabruck GmbH\SYSS Angebote - Kontaktliste.xlsx") eingetragen
+3. Kunde des Kunden wird angerufen um das Angebot nachzufassen.
+4. Ergebnis wird in der gleichen Liste ("C:\Users\PV\OneDrive\Sicherheitssysteme Vöcklabruck GmbH\SYSS Angebote - Kontaktliste.xlsx") eingetragen

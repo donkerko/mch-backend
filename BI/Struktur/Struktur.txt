@@ -1,0 +1,9 @@
+Mail: 2 Outlook accounts, huetter@mchvertrieb.at und huetter@enko.at
+
+FileSystem: OneDrive huetter@mchvertrieb.at 
+
+CRM: 1 Excel Liste (Leads-Marcel-Huetter.xlsx)
+
+Angebotserstellung: portal.reonic.de
+
+Rechnung: Sevdesk

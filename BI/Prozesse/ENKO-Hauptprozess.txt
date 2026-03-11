@@ -1,0 +1,54 @@
+Ablauf:
+
+1. Anfrage empfangen
+Marketingkampagne Enko, Kunden melden sich auf einer Internetseite bei Enko (photovoltaikanlage.at / voltalux.at / zapier[ANFRAGEALARM]). Diese Anfrage kommt per Mail an huetter@enko.at
+1.1. Daten aus Email in Leads-Liste aufnehmen, CRM (Excel-Sheet geteilt mit Enko) 
+1.1.1. Name, Adresse, Mail, Telefonnummer
+1.1.2. Weitere Infos aus der E-Mail Anfrage können zu einem späteren Zeitpunkt auch in Liste aufgenommen werden (für bessere Einschätzung des Kundenpotenzials).
+1.2. Mail in Ordner ("in Liste eingetragen") verschieben
+
+---------------------------
+
+2. Lead Enko Kontaktliste anrufen (Mail)
+2.1. Nicht bearbeitete Kunden werden innerhalb von 24 Stunden (!) angerufen um Kontakt herzustellen und initiale Fragen zu beantworten. 
+
+Ziel: Bedarf erkennen, Kunde in CRM aufnehmen
+Wenn Kunde etwas kaufen möchte, dann ist das eine "Zusage" (siehe Leads-Liste)
+
+---------------------------
+
+3. Datenaufnahme (wenn innerhalb von 30 km vorort nach Termin oder sonst telefonisch werden Daten aufgenommen)
+3.1. M erstellt neue Apple Notiz mit Daten.
+3.2. M kopiert Daten in Word und speichert diese im OneDrive ab
+Ziel: Daten für unverbindliches Angebot für Kunden aufnehmen.
+
+---------------------------
+
+4. Angebotslegung: Planung & Kalkulation (Reonic) 
+4.1. Planung
+4.2. Kalkulation
+4.3. Optional: Leasing
+4.4. Angebot Senden (innerhalb 48h ab Datenaufnahme)
+
+Ziel: Unverbindliches Angebot für Kunden erstellen und senden.
+
+---------------------------
+
+5. Angebot nachfassen
+5.1. Angebot wurde gesendet und es wird Rücksprache mit Kunden gehalten. Offene Fragen/Themen werden besprochen.
+
+---------------------------
+
+6. Angebot verhandeln
+6.1. Wenn Änderung notwending, dann Angebot aktualisieren.
+
+---------------------------
+
+7. Angebot abschließen
+7.1. Kunde bestätigt das Angebot (Mail/Telefonisch)
+
+---------------------------
+
+8. Rechnung an Auftragsgeber erstellen & senden (Sevdesk).
+
+Info: Jeder Kunde erhält zusätzlich einen Stromvertrag, welcher aus Einspeisetarif/Bezugstarif und Energiegemeinschaft (EAG) besteht.

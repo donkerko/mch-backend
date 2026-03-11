@@ -1,0 +1,5 @@
+openpyxl
+pdfplumber
+extract_msg
+chardet
+pywin32

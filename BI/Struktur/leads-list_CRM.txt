@@ -1,0 +1,2 @@
+DateiName: Leads-Marcel-Huetter.xlsx
+Columns: Name,Adresse,Mailadresse,Telefonnummer,angerufen/Mail,Zu/- Absage,Information

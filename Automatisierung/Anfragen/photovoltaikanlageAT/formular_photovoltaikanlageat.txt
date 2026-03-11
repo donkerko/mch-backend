@@ -1,0 +1,17 @@
+#project related
+Welche Kategorie trifft auf Sie zu? (Single Choice) {Privatkunden;Unternehmen;Eigentümerschaft}
+Welche Technologie interessiert Sie? (single choice) {Photovoltaik;Solarthermie;Ich weiß es nicht / Beratung gewünscht}
+Wählen Sie den Gebäudetyp aus. (Single choice) {Einfamilienhaus;Mehrfamilienhaus;Garage;Landwirtschaftliche Gebäude;Sonstiges}
+Wo soll das System montiert werden? (Single choice) {Dach;Fassade (gebäudeintegriert);Freifläche;Ich weiß es nicht / Ich bin an mehreren Optionen interessiert}
+Wie groß ist die Fläche ungefähr, auf der die Anlage installiert werden soll? (optional, open-ended numeric, m2)
+Wie hoch ist Ihr Energieverbrauch pro Jahr ungefähr? (optional, open-ended numeric, kWh)
+Wann möchten Sie Ihre Anlage installieren? (Single choice) {Sobald wie möglich;Innerhalb von 4 bis 6 Monaten;Innerhalb eines Jahres;Sonstiges/Weiß nicht}
+Ergänzende Informationen (optional, open-ended)
+
+#personal data
+Installationsadresse (Address field)
+Hausnr. (door number)
+PLZ (postal code)
+Ihr Name (name)
+E-Mail (mail address)
+Mobile Rufnummer (phone number)

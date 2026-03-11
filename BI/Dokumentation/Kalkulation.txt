@@ -1,0 +1,9 @@
+1. Kalkulationstabelle aus "Kalkulation_KUNDE Vorlage NEU" für Kunde erstellen und unter "neuen Angebote erstellt PV" abspeichern
+WICHTIG: Optionale Komponente in der kalkulation nicht aufnehmen
+2. Datei bearbeiten
+2.1. Komponente aus Angebot/Datenaufnahme einfügen
+3. Stückliste aus Reonic öffnen
+3.1. Komponenten bearbeiten
+3.2. Position aus Sonstiges "Pauschalpreis für die Planung, Montage, Inbetriebnahme und Dokumentation der gesamten Anlage" nach ganz oben verschieben
+3.3. In dieser Position den VK-Preis aus Kalkulation einfügen und 20% mwst. auswählen
+3.4. Speichern

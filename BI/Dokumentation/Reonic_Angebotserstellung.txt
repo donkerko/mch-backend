@@ -1,0 +1,55 @@
+Angebot anlegen
+Kontakt erstellen
+	Vorname, Nachname, E-Mail, Telefon, Adresse (Wichtig ist dass es die Adresse mit  Google Maps verknüpft, dh. das Gebäude ist in der Planung ersichtlich)
+	Speichern
+Planung
+	Planung
+		Photovoltaikanlage
+			+ Planung Starten
+				Planungspakete importieren
+					Obere "Standard-Paket" auswählen
+					Ja
+				Zur Dachbelegung gehen?
+					Nein
+		Speicher
+			+ Planung starten
+				jetzt erledigen -->
+					Komponenten hinzufügen
+						Stromspeicher - SigenStor BAT 10.0 (Sigenergy · 11130003) --> hinzufügen
+								Speichern
+		Wallbox
+			+ Planung starten
+				jetzt erledigen -->
+					+ Hinzufügen
+						Wallbox - Sigen EV AC Charger 11 kW (Sigenergy · 11070008) --> hinzufügen
+							Speichern
+
+		Zusätzliche Komponenten (zb. Notstrombox - Sigen Energy Gateway HomeMax TP (Sigen Energy))
+			Zusätzliche Komponenten hinzufügen
+				+ Hinzufügen
+					Notstrombox - Sigen Energy Gateway HomeMax TP (Sigen Energy) --> hinzufügen
+						Speichern
+		Förderungen (informationen aus "Förderungsübersicht 2026.docx" im OneDrive ermitteln )
+			Förderungen hinzufügen
+				+ Förderung hinzufügen
+					Förderung: 
+						PV-Anlage
+					Betrag: Gemeinsam mit Daten und Förderungsübersicht berechnen
+					Beschreibung für Kunden: leer (alles löschen)
+					Speichern
+				+ Förderung hinzufügen
+					Förderung:
+						Stromspeicher
+					Betrag: Gemeinsam mit Daten und Förderungsübersicht berechnen
+					Beschreibung für Kunden: leer (alles löschen)
+					Speichern
+Finalisieren & Vorschau
+	Text
+		Anrede mit Kundenname anpassen
+		Speichern
+	Seiten anpassen
+		Deaktvieren von "Haushalt", "Wirtschaftlichkeit"
+Unterschrift einholen
+	Planung abschließen & Unterschrift anfragen
+		Download
+		WICHTIG: NICHT AKZEPTIEREN

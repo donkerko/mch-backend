@@ -1,0 +1,20 @@
+Anfrage
+Am 07.02.2026 um 13:07
+Verifizierter Lead
+Lead ID: idnummer
+Kontaktdaten Lead
+Vorname: Vorname
+Nachname: Nachname
+Bundesland: Bundesland
+Bezirk: Bezirk
+Adresse: Straße, Postleitzahl Ort
+E-Mail: email@adresse.com
+Telefon: telefonnummer
+Projektdaten
+Wo soll Ihre Photovoltaik Anlage installiert werden? Mehrfamilienhaus
+Auf welcher Fläche soll die Photovoltaik Anlage installiert werden? Satteldach
+Sind Sie Eigentümer*in der Immobilie? Eigentümer*in
+Wann soll die Anlage installiert werden? 3-6 Monate
+Wie hoch ist ihr durchschnittlicher Jahresstromverbrauch? 5 Personen > 5.000 kWh
+Möchten Sie die Photovoltaik Anlage mit einem Stromspeicher ergänzen? Mit Stromspeicher
+Wie wird die Anschaffung der Anlage finanziert? Eigenfinanzierung

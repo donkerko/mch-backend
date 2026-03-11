@@ -1,0 +1,3 @@
+Aktuelle Leads-Liste enthält hauptsächlich Kontaktdaten und Kontaktstatus, aber keine Aussage zur Qualität oder Abschlusswahrscheinlichkeit eines Leads.
+Vorschlag: interne Erweiterung um zusätzliche Informationen wie Eigentümerstatus, grobe Objekt- bzw. Dach-Eignung, Stromverbrauch, Entscheidungszeitraum, Budget-/Finanzierungsstatus, Produktinteresse (PV, Speicher, WP, Wallbox) sowie eine einfache Lead-Bewertung (A/B/C).
+Ziel ist eine bessere Priorisierung, weniger Zeitaufwand für schwache Leads und eine effizientere Angebots- und Terminplanung, ohne die bestehende Leads-Liste strukturell zu verändern.

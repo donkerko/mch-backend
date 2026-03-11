@@ -1,0 +1,2801 @@
+PS C:\Users\PV\OneDrive> tree /F
+Folder PATH listing
+Volume serial number is 6E5C-EBE1
+C:.
+│   LEADS KL-MONTAGEN.xlsx
+│   Personal Vault.lnk
+│
+├───Anlagen
+├───backend
+│   ├───Automatisierung
+│   │   └───Anfragen
+│   │       ├───photovoltaikanlageAT
+│   │       │       formular_photovoltaikanlageat.txt
+│   │       │       output_photovoltaikanlageat.txt
+│   │       │       WG Manfred Kaisinger von Photovoltaikanlage.at - Nettbureau AS.msg
+│   │       │       WG_ Erkan Yalcin von Photovoltaikanlage_at - Nettbureau AS.msg
+│   │       │
+│   │       └───voltaluxAT
+│   │               formular_voltalux.txt
+│   │               Leads.msg
+│   │               output_voltalux.txt
+│   │               voltalux-lead-2026-02-07-qDNa5iCW-grieskirchen-4723.pdf
+│   │
+│   ├───BI
+│   │   ├───Dokumentation
+│   │   │       Gebaeude_Planung.txt
+│   │   │       Kalkulation.txt
+│   │   │       Reonic_Angebotserstellung.txt
+│   │   │
+│   │   ├───Ideen
+│   │   │   │   Leads-Liste-Upgrade.docx
+│   │   │   │   Leads-Scoring.txt
+│   │   │   │
+│   │   │   └───Leads-Scoring
+│   │   ├───Prozesse
+│   │   │       Hauptprozess.txt
+│   │   │       Reonic_Uebersicht.txt
+│   │   │
+│   │   └───Struktur
+│   │           angeboteErstellen-list.txt
+│   │           leads-list_CRM.txt
+│   │           Legende_Leads-Liste.txt
+│   │           OneDrive-Structure.txt
+│   │           OneDrive-struktur.txt
+│   │           Struktur.txt
+│   │
+│   ├───logs
+│   │       duplicate_cleanup.log
+│   │       lead_import.log
+│   │
+│   └───scripts
+│       ├───folderStructure
+│       │       moveDatenaufnahmen.ps1
+│       │
+│       ├───python
+│       │   ├───anfragen
+│       │   │       01_rename_anfragen.py
+│       │   │       02_parse_anfragen.py
+│       │   │
+│       │   ├───auftragsbestaetigungen
+│       │   │       auftragsbestaetigungen_automation.py
+│       │   │
+│       │   ├───create-projectfolder-from-angabote-zu-erstellen
+│       │   │       create_projectFolders.py
+│       │   │
+│       │   ├───datenaufnahme-to-projekte
+│       │   │       migration.py
+│       │   │
+│       │   ├───datenaufnahme-to-projektübersicht
+│       │   │       kunden-extrahieren.py
+│       │   │
+│       │   ├───deduplicate-leads-in-anfrageordner
+│       │   │       deduplicate-leads.py
+│       │   │
+│       │   ├───leads-to-projekte
+│       │   │       import_leads.py
+│       │   │
+│       │   ├───leads-to-projektuebersicht
+│       │   │       extract-data.py
+│       │   │
+│       │   └───sicherheitssysteme
+│       │       └───mail-pipeline
+│       │               sicherheitssysteme_pipeline.py
+│       │
+│       ├───vba
+│       │   └───move_anfrage_mails
+│       │           Public Sub ProcessENKOLeads().vba
+│       │
+│       └───vbs
+│               Save_Sicherheitssysteme_PDFs.vbs
+│
+├───Dokumente
+├───EFS-AG
+│       Absprache Santos mit Faizhofer.docx
+│
+├───ENKO GmbH
+│   │   260219_kopie_Leads-Marcel-Huetter.xlsx
+│   │   260220.png
+│   │   260303_kopie_Leads-Marcel-Huetter.xlsx
+│   │   Angebote zu erstellen.xlsx
+│   │   foerderungsRechner.xlsx
+│   │   Projektübersicht-Vorlage.xlsx
+│   │   Projektübersicht.xlsx
+│   │   Vertriebsablauf_MCH_ENKO.docx
+│   │
+│   ├───Abgeschlossen
+│   │   ├───Bernhard Eppenschwandter
+│   │   │       Angebot PV Bernhard Eppenschwandter.pdf
+│   │   │       Anzahlungsrechnung Bernhard Eppenschwandter.pdf
+│   │   │       Auftragsbestätigung Bernhard Eppenschwandter.pdf
+│   │   │       Jahresstromabrechnung Bernhard Eppenschwandter.pdf
+│   │   │
+│   │   ├───Cassandra Fellner-Groß
+│   │   │   │   AB Fellner-Groß.pdf
+│   │   │   │   Angebot Cassandra Fellner-Gross PV .pdf
+│   │   │   │   Datenaufnahme Cassandra Fellner-Groß.docx
+│   │   │   │   Zählernummer alt.jpg
+│   │   │   │
+│   │   │   └───Fotos Cassandra Fellner-Groß
+│   │   │           172B1066-2227-4479-A8B1-B29837486E26_1_105_c.jpeg
+│   │   │           43A3D91D-086A-41CB-BB8C-5A09B6AE21C1_1_105_c.jpeg
+│   │   │           67B4C050-3284-445E-86BD-D56B3524F3B4_1_105_c.jpeg
+│   │   │           94D24A75-53E6-49E3-93A7-D7BBC3FD9B3E_1_105_c.jpeg
+│   │   │           A89BA027-9BFC-4A15-8987-DEC3CF5D75C0_1_105_c.jpeg
+│   │   │           E11E6EFC-EF5E-4B3E-9D3E-753232E9F883_1_105_c.jpeg
+│   │   │           EAD8FADA-9B31-4161-8C10-2AE7C7E9F640_1_105_c.jpeg
+│   │   │           F555F32B-54BC-401F-A28B-C84A4AE7C527_1_105_c.jpeg
+│   │   │
+│   │   ├───Christoph Machleidt
+│   │   │       AB PV Christoph Machleidt.pdf
+│   │   │       Angebot PV Christoph Machleidt .pdf
+│   │   │       Anzahlungsrechnung Christoph Machleidt PV.pdf
+│   │   │
+│   │   ├───Daniel Mandlbauer
+│   │   │       Angebot PV Mandlbauer Speichererweiterung_251224_110235.pdf
+│   │   │       Daniel Mandlbauer Angebot PV unterschrieben .pdf
+│   │   │
+│   │   ├───Heidemarie Ofner
+│   │   ├───Johannes Schatzl
+│   │   │       Angebot PV Johannes Schatzl 6 kWp.pdf
+│   │   │       Angebot PV Johannes Schatzl.pdf
+│   │   │       Geldwaäscheschulung Johannes Schatzl Leasing.pdf
+│   │   │       Jahresstromabrechnung Johannes Schatzl (Kerstin Stürz).pdf
+│   │   │       Kalkulation_KUNDE Schatzl.xlsx
+│   │   │
+│   │   ├───Michael Dallinger
+│   │   │       Angebot PV Michael Dallinger.pdf
+│   │   │       Kalkulation_KUNDE Dallinger.xlsx
+│   │   │
+│   │   ├───Patrick Pöschl
+│   │   │       Angebot Patrick Pöschl PV.pdf
+│   │   │       Kalkulation_KUNDE Pöschl.xlsx
+│   │   │       Patrick Pöschl Stromabrechnung 2.jpeg
+│   │   │       Patrick Pöschl Stromrechnung.jpeg
+│   │   │
+│   │   ├───Rene Fartek
+│   │   │       Angebot Rene Fartek PV 20 kWh Speicher.pdf
+│   │   │       Angebot Rene Fartek PV.pdf
+│   │   │       Kalkulation_KUNDE Fartek.xlsx
+│   │   │       Rene Fartek Datenaufnahme.docx
+│   │   │
+│   │   ├───Roland Hartl
+│   │   │       AB PV Roland Hartl.pdf
+│   │   │       Angebot PV Roland Hartl.pdf
+│   │   │       Anzahlungsrechnung Roland Hartl PV.pdf
+│   │   │
+│   │   ├───Stefan Petz
+│   │   └───Thomas Hofer
+│   │           AB PV Thomas Hofer.pdf
+│   │           Angebot PV Thomas Hofer.pdf
+│   │           Angebot Thomas Hofer PV 2.pdf
+│   │           Anzahlungsrechnung PV Thomas Hofer.pdf
+│   │           Jahresstromabrechnung Thomas Hofer.pdf
+│   │           Thomas Hofer Dach .png
+│   │
+│   ├───Anfragen
+│   │   │   Anfragen.xlsx
+│   │   │
+│   │   ├───photovoltaikAT
+│   │   │       250616_Nussbaumer.msg
+│   │   │       250827_Hartmann.msg
+│   │   │       250901_Schachl.msg
+│   │   │       250922_Weiler.msg
+│   │   │       250929_Haboeck.msg
+│   │   │       250929_Rieger.msg
+│   │   │       250929_Schwarzmayr.msg
+│   │   │       251005_Gsoellhofer.msg
+│   │   │       251020_Wohlmuth.msg
+│   │   │       251028_Berger.msg
+│   │   │       251029_Frostl.msg
+│   │   │       251031_Staufner.msg
+│   │   │       251123_Niederauer.msg
+│   │   │       260103_Asamer.msg
+│   │   │       260103_Delkhuaz.msg
+│   │   │       260103_Eder-Gallner.msg
+│   │   │       260103_Kaltenbrunner.msg
+│   │   │       260103_Klapfenboeck.msg
+│   │   │       260103_Plasonig.msg
+│   │   │       260103_Rohrleitner.msg
+│   │   │       260103_Tams.msg
+│   │   │       260103_Vincze-Varga.msg
+│   │   │       260108_Erd.msg
+│   │   │       260108_Gabriele.msg
+│   │   │       260108_Kastner.msg
+│   │   │       260108_Krempl.msg
+│   │   │       260108_Linsbod.msg
+│   │   │       260108_Lysiak.msg
+│   │   │       260108_Mairhofer.msg
+│   │   │       260108_Pressler.msg
+│   │   │       260108_Schoegl.msg
+│   │   │       260108_Sternbauer.msg
+│   │   │       260108_Woegerbauer.msg
+│   │   │       260112_NITZLER.msg
+│   │   │       260113_Mackner.msg
+│   │   │       260113_Sporn.msg
+│   │   │       260113_Suess.msg
+│   │   │       260114_Steyrer.msg
+│   │   │       260116_Berger.msg
+│   │   │       260116_Fellinger.msg
+│   │   │       260116_Huber.msg
+│   │   │       260116_Oberndorfer.msg
+│   │   │       260116_Staudinger.msg
+│   │   │       260126_Huemer.msg
+│   │   │       260130_Hartl.msg
+│   │   │       260203_Hoerhager.msg
+│   │   │       260204_Aumayr.msg
+│   │   │       260204_Mayrhuber.msg
+│   │   │       260206_Purer.msg
+│   │   │       260207_Haunsperger.msg
+│   │   │       260207_Helminger.msg
+│   │   │       260207_Melanie.msg
+│   │   │       260207_Schnaitl.msg
+│   │   │       260209_Yalcin.msg
+│   │   │       260213_Thomas.msg
+│   │   │       260216_Kaisinger.msg
+│   │   │       260216_Sahin.msg
+│   │   │
+│   │   ├───PVALARM
+│   │   │       260207_Dallinger.msg
+│   │   │       260216_Michael.msg
+│   │   │       260219_Preiner.msg
+│   │   │       260224_Esterer.msg
+│   │   │       260224_Strassl.msg
+│   │   │       260225_Edin.msg
+│   │   │       260225_Kristina.msg
+│   │   │       260226_Hink.msg
+│   │   │       260227_Traeger.msg
+│   │   │       260303_Bettina.msg
+│   │   │       260303_Cevik.msg
+│   │   │       260303_Hollerweger.msg
+│   │   │       260303_Piskun.msg
+│   │   │       260303_Sporer.msg
+│   │   │       260305_Berger.msg
+│   │   │       260305_Julia.msg
+│   │   │       260305_Rainbacher.msg
+│   │   │       260306_Jahnel.msg
+│   │   │       260306_Kaya.msg
+│   │   │
+│   │   └───Voltalux
+│   │           250815_Hasenoehrl.pdf
+│   │           250815_Marn.pdf
+│   │           250815_Schraml.pdf
+│   │           250822_Baumann.pdf
+│   │           250822_Resch.pdf
+│   │           251008_Praher.pdf
+│   │           251008_Schwarz.pdf
+│   │           251022_Dietachmayr.pdf
+│   │           251022_Fein.pdf
+│   │           251027_Schreiner.pdf
+│   │           251027_Wolschner.pdf
+│   │           251120_Himsl.pdf
+│   │           251120_Reichsoellner.pdf
+│   │           251120_Zick.pdf
+│   │           251209_Adlesgruber.pdf
+│   │           251209_Burns.pdf
+│   │           251209_Junger.pdf
+│   │           251209_Kardar.pdf
+│   │           251209_Schachinger.pdf
+│   │           251209_Spitzbarth.pdf
+│   │           251209_Stromsik.pdf
+│   │           251209_Viehboeck.pdf
+│   │           251211_Wiesinger.pdf
+│   │           260108_Helml.pdf
+│   │           260113_Beculic.pdf
+│   │           260113_Blazevic.pdf
+│   │           260113_Gasperlmair.pdf
+│   │           260113_Niehoff.pdf
+│   │           260113_Pinter.pdf
+│   │           260114_Hackel.pdf
+│   │           260126_Haderer.pdf
+│   │           260126_Kaltseis.pdf
+│   │           260126_Ofner.pdf
+│   │           260126_Reiter.pdf
+│   │           260126_Steingress.pdf
+│   │           260202_Fuertbauer.pdf
+│   │           260202_Haischberger.pdf
+│   │           260202_Ilerisoy.pdf
+│   │           260202_Knonbauer.pdf
+│   │           260202_Oberndorfer.pdf
+│   │           260202_Ringer.pdf
+│   │           260202_Sinzinger.pdf
+│   │           260204_Aumayr.pdf
+│   │           260206_Mayer.pdf
+│   │           260207_Bartenberger.pdf
+│   │           260207_Gantzer.pdf
+│   │           260207_Stempfer.pdf
+│   │           260207_Winkelmeyer.pdf
+│   │           260209_Eder.pdf
+│   │           260212_Hochstrasser.pdf
+│   │           260216_Amesberger.pdf
+│   │           260216_Kapfer.pdf
+│   │           260216_Raffelsberger.pdf
+│   │           260216_Schindlauer.pdf
+│   │           260225_Wetzlmair.pdf
+│   │           260303_Brueckl.pdf
+│   │           260303_Hoenigl.pdf
+│   │           260303_Priewasser.pdf
+│   │           260303_Schiendorfer.pdf
+│   │           260303_Schuh.pdf
+│   │           260303_Steinmassl.pdf
+│   │           260303_Winklhammer.pdf
+│   │           260305_Franzmeyer.pdf
+│   │           260305_Gruebl.pdf
+│   │           260305_Seyer.pdf
+│   │           260305_Vojinovic.pdf
+│   │           260306_Pochmann.pdf
+│   │           260306_Sams.pdf
+│   │
+│   ├───Angebote
+│   │   │   Fragen zu den Angeboten welche ich erstelle.docx
+│   │   │
+│   │   ├───Alexander Nestelberger
+│   │   │       Angebot PV Alexander Nestelberger.pdf
+│   │   │
+│   │   ├───Besnik Beqiri
+│   │   │       Angebot Besnik Beqiri PV.pdf
+│   │   │       Angebot PV Beqiri aktualisiert.pdf
+│   │   │       Angebote PV Besnik Beqiri.pdf
+│   │   │       Besnik Beqiri.docx
+│   │   │       Kalkulation_KUNDE Beqiri.xlsx
+│   │   │       Leasingangebot Beqiri.pdf
+│   │   │
+│   │   ├───Bruti Shpetim
+│   │   │       Angebot PV Bruti aktualisiert.pdf
+│   │   │       Angebot Shpetim Bruti akutalisiert.pdf
+│   │   │       Angebot Shpetim Bruti.pdf
+│   │   │       Bruti Shpetim.docx
+│   │   │       Kalkulation_KUNDE Bruti.xlsx
+│   │   │       Leasingangebot Bruti.pdf
+│   │   │
+│   │   ├───Christian Weiler
+│   │   │       Angebot PV Christian Weiler aktualisiert.pdf
+│   │   │       Kalkulation_KUNDE Weiler.xlsx
+│   │   │
+│   │   ├───David Hattinger
+│   │   │       Angebot PV David Hattinger.pdf
+│   │   │       Kalkulation_KUNDE Hattinger.xlsx
+│   │   │
+│   │   ├───Fred Buchner
+│   │   │       Angebot Alfred Buchner komplett.pdf
+│   │   │       Angebot PV Fred Buchner Speicher + WR.pdf
+│   │   │       Kalkulation_KUNDE Buchner.xlsx
+│   │   │
+│   │   ├───Josef Wolf
+│   │   │       Angebot PV Josef Wolf.pdf
+│   │   │       Aw&#x3a; Kontaktaufnahme PV Josef Wolf.eml
+│   │   │       Datenaufnahme Josef Wolf .docx
+│   │   │       IMG_3996.jpg
+│   │   │       IMG_4009.jpg
+│   │   │       IMG_4096.jpg
+│   │   │       IMG_4097.jpg
+│   │   │       IMG_4099.jpg
+│   │   │       Kalkulation_KUNDE Wolf.xlsx
+│   │   │       Unknown.jpeg
+│   │   │
+│   │   ├───Martin Junger
+│   │   │       Angebot PV Martin Junger.pdf
+│   │   │       Kalkulation_KUNDE Junger.xlsx
+│   │   │
+│   │   ├───Martina Leitgeb
+│   │   │       Angbeot PV Martina Leitgeb.pdf
+│   │   │       Kalkulation_KUNDE Leitgeb.xlsx
+│   │   │
+│   │   ├───Reinhold Laister
+│   │   │       Angebot PV Reinhold Laister.pdf
+│   │   │       Kalkulation_KUNDE LAISTER.xlsx
+│   │   │
+│   │   ├───Sebastian Kaiser
+│   │   │       Sebastian Kaiser PV Angebot.pdf
+│   │   │
+│   │   ├───Svetlana Brinnich
+│   │   │       Angebot Svetlana Brinnich PV.pdf
+│   │   │       Kalkulation_KUNDE Brinnich.xlsx
+│   │   │       Svetlana Brinnich Datenaufnahme.docx
+│   │   │
+│   │   └───Yusuf Esen
+│   │           0B86171C-BD25-47A6-86E7-AB093F1594DA.heic
+│   │           0D8E0604-F3CC-45AC-9E86-8CAD0F0765B3.heic
+│   │           18139CAF-F611-4C4B-98C6-7FC9D40125AB.heic
+│   │           238B79D3-B2D5-42A5-A2FC-A75062A57E9C.heic
+│   │           36EFE6C6-1C4C-41EE-82DF-12AFF0A91235.heic
+│   │           6308F6F9-C98A-4324-AC10-2EFA08D93E73.heic
+│   │           706AD973-DEF8-4977-9144-E3C05BD5C8E2.heic
+│   │           7C2E9D88-9A78-4BA6-B1A1-5AC7DC00CB70.heic
+│   │           A5D10F4D-1606-43A2-9779-E7309EC9B543.heic
+│   │           AB19581C-5AAB-4CAD-A9CD-815D722CD26C.heic
+│   │           Angebot Yusuf Esen PV .pdf
+│   │           B1A2B76A-5EA6-4427-A3A0-1D6606F1B96E.heic
+│   │           CBA9EC7D-F5D8-4945-9882-9FB576BD4FF5.heic
+│   │           Datenaufnahme Yusuf Esen.docx
+│   │           FF0BDD76-FBEC-446C-86DC-0D2F28E00C0C.heic
+│   │
+│   ├───Auftragsbestaetigungen
+│   │   ├───250701_Petz
+│   │   │       AB-1064-2025.pdf
+│   │   │       RE-1110-2025.pdf
+│   │   │
+│   │   ├───250926_Hartl
+│   │   │       AB-1112-2025.pdf
+│   │   │       RE-1206-2025.pdf
+│   │   │
+│   │   ├───250926_Machleidt
+│   │   │       AB-1111-2025.pdf
+│   │   │       Christoph Machleidt 1 2025-09-25.pdf
+│   │   │       RE-1202-2025.pdf
+│   │   │
+│   │   ├───251003_Hofer
+│   │   │       AB-1118-2025.pdf
+│   │   │       RE-1209-2025.pdf
+│   │   │
+│   │   ├───251009_Eppenschwandtner
+│   │   │       AB-1121-2025.pdf
+│   │   │       RE-1217-2025.pdf
+│   │   │
+│   │   ├───251015_Schatzl
+│   │   │       AB-1122-2025.pdf
+│   │   │       RE-1224-2025.pdf
+│   │   │
+│   │   ├───251016_Dallinger
+│   │   │       AB-1123-2025.pdf
+│   │   │       Dallinger 1 2025-10-17.pdf
+│   │   │       RE-1225-2025.pdf
+│   │   │
+│   │   ├───251016_Poeschl
+│   │   │       AB-1124-2025.pdf
+│   │   │       Patrick Pöschl 1 2025-10-16.pdf
+│   │   │       RE-1226-2025.pdf
+│   │   │
+│   │   ├───251209_Fartek
+│   │   │       AB-1143-2025.pdf
+│   │   │       RE-1321-2025.pdf
+│   │   │
+│   │   ├───260109_Mandlbauer
+│   │   │       AB-1000-2026.pdf
+│   │   │       Angebot PV Mandlbauer Speichererweiterung_251224_110235.pdf
+│   │   │       RE-1001-2026.pdf
+│   │   │
+│   │   └───260209_Ofner
+│   │           AB-1008-2026.pdf
+│   │           Ofner 1 2026-02-09.pdf
+│   │           RE-1032-2026.pdf
+│   │
+│   ├───Datenaufnahmen
+│   │   ├───Alexander Gürtler
+│   │   │       Datenaufnahme Alexander Gürtler.docx
+│   │   │
+│   │   ├───Alexander Viehböck
+│   │   │       Alexander Viehböck.docx
+│   │   │
+│   │   ├───Alfred Rohrweck
+│   │   │       Alfred Rohrweck.docx
+│   │   │
+│   │   ├───Andreas Berger
+│   │   │       Andreas Berger.docx
+│   │   │
+│   │   ├───Andreas Niederauer
+│   │   │       Mag. Andreas Niederauer.docx
+│   │   │
+│   │   ├───Andreas Schwarz
+│   │   │       Andreas Schwarz.docx
+│   │   │
+│   │   ├───Christian Kreuzer
+│   │   │       Christian Kreuzer.docx
+│   │   │
+│   │   ├───Christian Rieger
+│   │   │       Christian Rieger.docx
+│   │   │
+│   │   ├───David Haböck
+│   │   │       Bauplan David Haböck.pdf
+│   │   │       Datenaufnahme David Haböck.docx
+│   │   │
+│   │   ├───David Oberndorfer
+│   │   │       1B733AF4-5B4B-414E-ADBD-ED6730550848_1_105_c.jpeg
+│   │   │       David Oberndorfer.docx
+│   │   │       David Oberndorfer.txt
+│   │   │
+│   │   ├───Dietmar Schindlauer
+│   │   │       Datenaufnahme Dietmar Schindlauer.docx
+│   │   │
+│   │   ├───Doris Mayer
+│   │   │       Datenaufnahme Doris Mayer.docx
+│   │   │
+│   │   ├───Eduard Loibl
+│   │   │       Eduard Loibl.docx
+│   │   │
+│   │   ├───Franz Aumayr
+│   │   │       Datenaufnahme Franz Aumayr.docx
+│   │   │
+│   │   ├───Franz Plasonig
+│   │   │       Franz Plasonig.docx
+│   │   │
+│   │   ├───Friedrich Baumann
+│   │   │       Friedrich Baumann.docx
+│   │   │
+│   │   ├───Georg Schachl
+│   │   ├───Gerhard Dallinger
+│   │   │       Datenaufnahme Gerhard Dallinger.docx
+│   │   │
+│   │   ├───Gerhard Hruschka
+│   │   │       Gerhard Hruschka.docx
+│   │   │
+│   │   ├───Gerhard Hörhager
+│   │   │       Datenaufnahme Gerhard Hörhager.docx
+│   │   │       Datenaufnahme Online Gerhard Hörhager.docx
+│   │   │
+│   │   ├───Gregor Dietachmayr
+│   │   │       image 2.png
+│   │   │       image 3.png
+│   │   │       image 4.png
+│   │   │       image 5.png
+│   │   │       image.png
+│   │   │       info.txt
+│   │   │
+│   │   ├───Hans Unterberger
+│   │   ├───Harald Helminger
+│   │   │       Datenaufnahme Harald Helminger.docx
+│   │   │
+│   │   ├───Harald Nussbaumer
+│   │   │       Bedarfsanalyse Harald Nussbaumer .pdf
+│   │   │
+│   │   ├───Harald Sinzinger
+│   │   │       Datenaufnahme Harald Sinzinger.docx
+│   │   │
+│   │   ├───Hermann Amesberger
+│   │   │       Datenaufnahme Arnesberger (Tina Pratinger).docx
+│   │   │
+│   │   ├───Herr Hartmann
+│   │   │       Foto Zählerkasten 1 Büro Hartmann (Reiter-Glas).jpeg
+│   │   │       Foto Zählerkasten 2 Wekstatt Hartmann (Reiter-Glas) .jpeg
+│   │   │       Jahresstromabrechnung Hartmann (Reiter-Glas) .pdf
+│   │   │       Pläne Cupboard PV Hartmann (Reiter-Glas).pdf
+│   │   │       Übersicht Bauort Hartmann (Reiter-Glas) .png
+│   │   │
+│   │   ├───Horst Christian
+│   │   ├───Hubert Fein
+│   │   ├───Josef Himsl
+│   │   │       Josef Himsl.docx
+│   │   │
+│   │   ├───Karin Gsöllhofer
+│   │   ├───Kurt Reiter
+│   │   │       Datenaufnahme Kurt Reiter.docx
+│   │   │
+│   │   ├───Markus Mackner
+│   │   │       Datenaufnahme Markus Mackner.docx
+│   │   │
+│   │   ├───Marlies Wohlmuth
+│   │   │       Einreichplan Marlies Wohlmuth.pdf
+│   │   │       Marlies Wohlmuth.docx
+│   │   │
+│   │   ├───Martin Junger
+│   │   │       Martin Junger.docx
+│   │   │
+│   │   ├───Mathias Niehoff
+│   │   │       Datenaufnahme Mathias Niehoff.docx
+│   │   │
+│   │   ├───Melanie Haunsperger
+│   │   │       Datenaufnahme Melanie Haunsperger.docx
+│   │   │
+│   │   ├───Michael Eder-Gallner
+│   │   │       Michael Eder-Gallner.docx
+│   │   │
+│   │   ├───Peter Huber
+│   │   │       Kalkulation_KUNDE Peter Huber.xlsx
+│   │   │       Peter Huber.docx
+│   │   │
+│   │   ├───Philipp Wiesinger
+│   │   │       Philipp Wiesinger.docx
+│   │   │
+│   │   ├───Rafet Ilerisoy
+│   │   │       Datenaufnahme Rafet Ilerisoy.docx
+│   │   │
+│   │   ├───Robert Chris Burns
+│   │   │       Robert Chris Burns.docx
+│   │   │
+│   │   ├───Said Koc
+│   │   ├───Sonja Rohrleitner
+│   │   │       Sonja Rohrleitner.docx
+│   │   │
+│   │   ├───Stefan Resch
+│   │   │       Stefan Resch.docx
+│   │   │
+│   │   ├───Susanne Staufner
+│   │   │       Susanne Staufner.docx
+│   │   │
+│   │   ├───Thomas Frostl
+│   │   │       Thomas Frostl.docx
+│   │   │
+│   │   ├───Thomas Hackel
+│   │   │       Datenaufnahme Thomas Hackel.docx
+│   │   │
+│   │   ├───Thomas Oberhofer
+│   │   │       Plan Oberhofer Neubau .pdf
+│   │   │       Thomas Oberhofer.docx
+│   │   │
+│   │   ├───Thomas Schögl
+│   │   │       Datenaufnahme Thomas Schögl.docx
+│   │   │
+│   │   ├───Walter Schreiner
+│   │   │       Walter Schreiner.docx
+│   │   │
+│   │   ├───Wolfgang Rohrer
+│   │   │       Wolfgang Rohrer.docx
+│   │   │
+│   │   └───Zihrina Catic
+│   │           Datenaufnahme Zihrina Catic.docx
+│   │
+│   ├───Förderungen 2026
+│   │       foerderungsRechner.xlsx - Shortcut.lnk
+│   │       Förderungsübersicht 2026.docx
+│   │       Info Handwerkerbonus.png
+│   │
+│   ├───Kalkulationen
+│   │       Kalkulation_KUNDE Fartek.xlsx
+│   │       Kalkulation_KUNDE Junger.xlsx
+│   │       Kalkulation_KUNDE Oberhofer.xlsx
+│   │       Kalkulation_KUNDE Vorlage Neu.xlsx
+│   │       Kalkulation_KUNDE Vorlage4.xlsx
+│   │       Kalkulation_KUNDE_VORLAGE.xlsx
+│   │
+│   ├───Meetings
+│   │       Informationen Strom Vermittlung ENKO.docx
+│   │       Mitschrift Termin mit Jakob ENKO.docx
+│   │       Zusammenfassung Gespräch mit Jakob am 05.docx
+│   │
+│   ├───neuen Angebote erstellt PV
+│   │   ├───Birgit Huemer
+│   │   │       Angebot PV Birgit Huemer.pdf
+│   │   │       Kalkulation_KUNDE Birgit Huemer.xlsx
+│   │   │
+│   │   ├───Gabriele & Günter Süss
+│   │   │       Angebot PV Gebriele & Günter Süss.pdf
+│   │   │       Datenaufnahme Gabriele & Günter Süss.docx
+│   │   │       Kalkulation_KUNDE Garbiele & Günter Süss.xlsx
+│   │   │
+│   │   ├───Heidemarie Ofner
+│   │   │       Angebot PV Heidemarie Ofner (aktualisiert).pdf
+│   │   │       Angebot PV Heidemarie_Ofner.pdf
+│   │   │       Heidemarie Ofner.docx
+│   │   │       Kalkulation_KUNDE_Heidemarie Ofner.xlsx
+│   │   │
+│   │   ├───Kurt Reiter
+│   │   │       Angebot PV Kurt Reiter (Pro).pdf
+│   │   │       Angebot PV Kurt Reiter.pdf
+│   │   │
+│   │   ├───Rohrleitner Sonja
+│   │   │       Angebot PV Erweiterung Rohrleitner Sonja.pdf
+│   │   │       Datenaufnahme Sonja Rohrleitner.docx
+│   │   │       Kalkulation_KUNDE Rohrleitner Sonja.xlsx
+│   │   │
+│   │   ├───Thomas Schögl
+│   │   │       Angebot-PV_Thomas_Schögl.pdf
+│   │   │       Kalkulation_Dan.xlsx
+│   │   │       Kalkulation_KUNDE Schögl Neu.xlsx
+│   │   │       Kalkulation_KUNDE Schögl.pdf
+│   │   │       Kalkulation_KUNDE Schögl.xlsx
+│   │   │
+│   │   └───Zihrina Catic-Ramic
+│   │           Angebot PV Catic-Ramic.pdf
+│   │           Kalkulation_KUNDE Catic-Ramic.xlsx
+│   │
+│   ├───Projekte
+│   │   ├───2025-02-23_Alexander Guertler
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Alexander Gürtler.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       Angebot PV Alexander Gürtler.pdf
+│   │   │   │       Kalkulation_Guertler.xlsx
+│   │   │   │       KALKULATION_Gürtler.pdf
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   │       AN_Gürtler_v01.pdf
+│   │   │   │       AN_Gürtler_v02.pdf
+│   │   │   │
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-06-16_Harald Nussbaumer
+│   │   │   │   log.txt
+│   │   │   │
+│   │   │   ├───01_Lead
+│   │   │   │       250616_Nussbaumer.msg
+│   │   │   │
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Bedarfsanalyse Harald Nussbaumer .pdf
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-08-11_Horst Schraml
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-08-21_Stefan Resch
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.jpeg
+│   │   │   │   │       image10.jpeg
+│   │   │   │   │       image11.jpeg
+│   │   │   │   │       image2.jpeg
+│   │   │   │   │       image3.jpeg
+│   │   │   │   │       image4.jpeg
+│   │   │   │   │       image5.jpeg
+│   │   │   │   │       image6.jpeg
+│   │   │   │   │       image7.jpeg
+│   │   │   │   │       image8.jpeg
+│   │   │   │   │       image9.jpeg
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Stefan Resch.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-08-26_Herr Hartmann
+│   │   │   │   log.txt
+│   │   │   │
+│   │   │   ├───01_Lead
+│   │   │   │       250827_Hartmann.msg
+│   │   │   │
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       Foto Zählerkasten 1 Büro Hartmann (Reiter-Glas).jpeg
+│   │   │   │   │       Foto Zählerkasten 2 Wekstatt Hartmann (Reiter-Glas) .jpeg
+│   │   │   │   │       Übersicht Bauort Hartmann (Reiter-Glas) .png
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Jahresstromabrechnung Hartmann (Reiter-Glas) .pdf
+│   │   │   │           Pläne Cupboard PV Hartmann (Reiter-Glas).pdf
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-08-31_Georg Schachl
+│   │   │   │   log.txt
+│   │   │   │
+│   │   │   ├───01_Lead
+│   │   │   │       250901_Schachl.msg
+│   │   │   │
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-09-27_David Haboeck
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.png
+│   │   │   │   │       image2.emf
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Bauplan David Haböck.pdf
+│   │   │   │           Datenaufnahme David Haböck.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-09-27_Rudolf Schwarzmayr
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-09-28_Christian Rieger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.png
+│   │   │   │   │       image2.png
+│   │   │   │   │       image3.png
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Christian Rieger.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-10-03_Karin Gsoellhofer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-10-05_Andreas Schwarz
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.png
+│   │   │   │   │       image2.png
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Andreas Schwarz.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-10-17_Marlies Wohlmuth
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.emf
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Einreichplan Marlies Wohlmuth.pdf
+│   │   │   │           Marlies Wohlmuth.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-10-21_Gregor Dietachmayr
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image 2.png
+│   │   │   │   │       image 3.png
+│   │   │   │   │       image 4.png
+│   │   │   │   │       image 5.png
+│   │   │   │   │       image.png
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           info.txt
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-10-21_Hubert Fein
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-10-25_Walter Schreiner
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.png
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Walter Schreiner.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-10-28_Andreas Berger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Andreas Berger.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       Kalkulation_Berger.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-10-28_Thomas Frostl
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Thomas Frostl.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       Kalkulation_Frostl.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-10-31_Susanne Staufner
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.png
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Susanne Staufner.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-11-16_Josef Himsl
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Josef Himsl.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-11-17_Alfred Rohrweck
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Alfred Rohrweck.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       AN_Entwurf_Rohrweck_Carport.pdf
+│   │   │   │       AN_Entwurf_Rohrweck_Dach.pdf
+│   │   │   │       Kalkulation_Rohrweck.xlsx
+│   │   │   │       KALKULATION_Rohrweck_Carport.pdf
+│   │   │   │       KALKULATION_Rohrweck_Dach.pdf
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-11-20_Andreas Niederauer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Mag. Andreas Niederauer.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-12-08_Alexander Viehboeck
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Alexander Viehböck.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       AN_Entwurf_Viehböck.pdf
+│   │   │   │       KALKULATION_Viehböck.pdf
+│   │   │   │       Kalkulation_Viehböck.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-12-08_Martin Junger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Martin Junger.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-12-08_Robert Chris Burns
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Robert Chris Burns.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-12-10_Philipp Wiesinger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.png
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Philipp Wiesinger.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-12-17_Andreas Helml
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-12-28_Stefan Krempl
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-12-31_Franz Plasonig
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Franz Plasonig.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2025-12-31_Michael Eder-Gallner
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Michael Eder-Gallner.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-02_Sonja Rohrleitner
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Sonja Rohrleitner.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-05_Johann Kastner
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-05_Mathias Niehoff
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Mathias Niehoff.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       KALKULATION_Niehoff.pdf
+│   │   │   │       Kalkulation_Niehoff.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-06_Thomas Schoegl
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.jpeg
+│   │   │   │   │       image2.jpeg
+│   │   │   │   │       image3.png
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Thomas Schögl.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       AN_Entwurf_Schögl.pdf
+│   │   │   │       KALKULATION_Schögl.pdf
+│   │   │   │       Kalkulation_Schögl.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   │       Angebot_PV_Thomas_Schögl.pdf
+│   │   │   │       AN_Schögl_v01.pdf
+│   │   │   │
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-07_Josip Blazevic
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-10_Elisabeth Pinter
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-10_Manuel Gasperlmair
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-12_Christian Sporn
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-12_Georg Nitzler
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-12_Guenter Suess
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Gabriele & Günter Süss.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       Angebot PV Gebriele & Günter Süss.pdf
+│   │   │   │       Kalkulation_KUNDE Garbiele & Günter Süss.xlsx
+│   │   │   │       Kalkulation_Suess.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-12_Thomas Hackel
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Thomas Hackel.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-13_Markus Mackner
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Markus Mackner.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-13_Martin Steyrer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-14_Matthias Berger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-15_Dietmar Staudinger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-15_Franz Huber
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-15_Philipp Fellinger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-16_Sandra Oberndorfer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-22_Josef Kaltseis
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-24_Heidemarie Ofner
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-25_Hans Haderer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-25_Kurt Reiter
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.jpeg
+│   │   │   │   │       image2.jpeg
+│   │   │   │   │       image3.jpeg
+│   │   │   │   │       image4.jpeg
+│   │   │   │   │       image5.jpeg
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Kurt Reiter.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-30_Harald Sinzinger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Harald Sinzinger.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-30_Judith Ringer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-30_Markus Haischberger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-30_Vera Hartl
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-31_Gerhard Hruschka
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.jpeg
+│   │   │   │   │       image2.jpeg
+│   │   │   │   │       image3.jpeg
+│   │   │   │   │       image4.jpeg
+│   │   │   │   │       image5.jpeg
+│   │   │   │   │       image6.jpeg
+│   │   │   │   │       maps.png
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Gerhard Hruschka.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       Kalkulation_Hruschka.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-01-31_Rafet Ilerisoy
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.jpeg
+│   │   │   │   │       image2.jpeg
+│   │   │   │   │       image3.jpeg
+│   │   │   │   │       image4.jpeg
+│   │   │   │   │       image5.jpeg
+│   │   │   │   │       image6.jpeg
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Rafet Ilerisoy.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-01_David Oberndorfer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       1B733AF4-5B4B-414E-ADBD-ED6730550848_1_105_c.jpeg
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           David Oberndorfer.docx
+│   │   │   │           David Oberndorfer.txt
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-01_Gerhard Fuertbauer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-03_Gerhard Hoerhager
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Gerhard Hörhager.docx
+│   │   │   │           Datenaufnahme Online Gerhard Hörhager.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-04_Franz Aumayr
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.jpeg
+│   │   │   │   │       image10.jpeg
+│   │   │   │   │       image11.jpeg
+│   │   │   │   │       image12.jpeg
+│   │   │   │   │       image13.jpeg
+│   │   │   │   │       image14.jpeg
+│   │   │   │   │       image15.jpeg
+│   │   │   │   │       image16.jpeg
+│   │   │   │   │       image2.jpeg
+│   │   │   │   │       image3.jpeg
+│   │   │   │   │       image4.jpeg
+│   │   │   │   │       image5.jpeg
+│   │   │   │   │       image6.jpeg
+│   │   │   │   │       image7.jpeg
+│   │   │   │   │       image8.jpeg
+│   │   │   │   │       image9.jpeg
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Franz Aumayr.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       AN_Entwurf_Aumayr_Gruber.pdf
+│   │   │   │       KALKULATION_Aumayr_Gruber.pdf
+│   │   │   │       Kalkulation_Aumayr_Gruber.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   │       Angebot_PV_Regina_Gruber.pdf
+│   │   │   │
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-04_Thomas Mayrhuber
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-05_Doris Mayer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.jpeg
+│   │   │   │   │       image2.jpeg
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Doris Mayer.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       AN_Entwurf_Mayer.pdf
+│   │   │   │       KALKULATION_Mayer.pdf
+│   │   │   │       Kalkulation_Mayer.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   │       Angebot_PV_Doris_Mayer.pdf
+│   │   │   │
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-06_Adalbert Purer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-07_Bernd und Regina Schnaitl
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-07_Gerhard Dallinger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Gerhard Dallinger.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       Kalkulation_Dallinger.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-07_Gerhard Gantzer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-07_Harald Helminger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.jpeg
+│   │   │   │   │       image2.jpeg
+│   │   │   │   │       image3.jpeg
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Harald Helminger.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       AN_Entwurf_Helminger.pdf
+│   │   │   │       KALKULATION_Helminger.pdf
+│   │   │   │       Kalkulation_Helminger.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   │       Angebot_PV_Harald_Helminger.pdf
+│   │   │   │
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-07_Manuel Bartenberger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-07_Melanie Haunsperger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.jpeg
+│   │   │   │   │       image10.jpeg
+│   │   │   │   │       image2.jpeg
+│   │   │   │   │       image3.jpeg
+│   │   │   │   │       image4.jpeg
+│   │   │   │   │       image5.jpeg
+│   │   │   │   │       image6.jpeg
+│   │   │   │   │       image7.jpeg
+│   │   │   │   │       image8.jpeg
+│   │   │   │   │       image9.jpeg
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Melanie Haunsperger.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       AN_Entwurf_Haunsperger.pdf
+│   │   │   │       KALKULATION_Haunsperger.pdf
+│   │   │   │       Kalkulation_Haunsperger.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   │       Angebot_PV_Melanie_Haunsperger.pdf
+│   │   │   │
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-08_Erkan Yalcin
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-09_Paul Eder
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-13_Thomas Rauch
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-14_Ali Sahin
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-14_Dietmar Schindlauer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.jpeg
+│   │   │   │   │       image2.jpeg
+│   │   │   │   │       image3.jpeg
+│   │   │   │   │       image4.jpeg
+│   │   │   │   │       image5.jpeg
+│   │   │   │   │       image6.jpeg
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Dietmar Schindlauer.docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       AN_Entwurf_Schindlauer.pdf
+│   │   │   │       KALKULATION_Schindlauer.pdf
+│   │   │   │       Kalkulation_Schindlauer.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   │       Angebot_PV_Dietmar_Schindlauer.pdf
+│   │   │   │
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-14_Manfred Kaisinger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-14_Michael Wagner
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-15_Helmut Kapfer
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-15_Hermann Amesberger
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   │       image1.jpeg
+│   │   │   │   │       image2.jpeg
+│   │   │   │   │       image3.jpeg
+│   │   │   │   │       image4.jpeg
+│   │   │   │   │       image5.jpeg
+│   │   │   │   │       image6.jpeg
+│   │   │   │   │       image7.jpeg
+│   │   │   │   │       image8.jpeg
+│   │   │   │   │
+│   │   │   │   └───Dokumente
+│   │   │   │           Datenaufnahme Arnesberger (Tina Pratinger).docx
+│   │   │   │
+│   │   │   ├───03_Planung
+│   │   │   │       Angebot PV Amesberger (Pratinger).pdf
+│   │   │   │       KALKULATION_Amesberger_Pratinger.pdf
+│   │   │   │       Kalkulation_Amesberger_Pratinger.xlsx
+│   │   │   │
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   ├───2026-02-19_René Preiner
+│   │   │   ├───01_Lead
+│   │   │   ├───02_Datenaufnahme
+│   │   │   │   ├───Bilder
+│   │   │   │   └───Dokumente
+│   │   │   ├───03_Planung
+│   │   │   ├───04_Angebot
+│   │   │   ├───05_Auftrag
+│   │   │   ├───06_Rechnung
+│   │   │   └───99_Archiv
+│   │   └───2026-03-03_Wolfgang Rohrer
+│   │       ├───01_Lead
+│   │       ├───02_Datenaufnahme
+│   │       │   ├───Bilder
+│   │       │   │       image1.jpeg
+│   │       │   │       image2.jpeg
+│   │       │   │       image3.jpeg
+│   │       │   │
+│   │       │   └───Dokumente
+│   │       │           Wolfgang Rohrer.docx
+│   │       │
+│   │       ├───03_Planung
+│   │       │       Angebot_PV_Wolfgang_Rohrer.pdf
+│   │       │       KALKULATION_Rohrer.pdf
+│   │       │       Kalkulation_Rohrer.xlsx
+│   │       │
+│   │       ├───04_Angebot
+│   │       │       Angebot_PV_Wolfgang_Rohrer.pdf
+│   │       │
+│   │       ├───05_Auftrag
+│   │       ├───06_Rechnung
+│   │       └───99_Archiv
+│   ├───Strom & Gas
+│   │   │   Franz Friedl Stromkunden .docx
+│   │   │   Martin Junger Stromabrechnung.pdf
+│   │   │   Privatvertrag Strom.pdf
+│   │   │
+│   │   └───Provisionsübersicht MRM
+│   │           Provision 2025.pdf
+│   │           Provisionen alle Tarife Fix Tranche 1 - Vertriebspartner .pdf
+│   │           Provisionen Vertriebspartner 2025 - Power & Cash Tarife.pdf
+│   │           Provisionen Vertriebspartner 2025.pdf
+│   │           Provisionen Vertriebspartner Fix ab 01.04.2025.pdf
+│   │           Provisionen Vertriebspartner Flex-2.pdf
+│   │           Verbund Provision Vertriebspartner GAS-2.pdf
+│   │           Verbund Provision Vertriebspartner Strom-2.pdf
+│   │
+│   ├───Telefonlisten PV ENKO
+│   │       MCH Vertrieb e.U. - LEADS KL-Montagen.xlsx
+│   │       Telefonliste - Angebote beim Kunden.xlsx
+│   │       Telefonliste - Leads + n.a.xlsx
+│   │       Telefonliste - Strom umstellen.xlsx
+│   │       Telefonliste Datenaufnahmen.xlsx
+│   │
+│   └───Vorlagen
+│       │   ENKO Textvorlage Kontaktaufnahme PV.docx
+│       │   Leads-Marcel-Huetter.url
+│       │   MCH Vertrieb Umsatzliste Vorlage.xlsx
+│       │   MCHVERTRIEB_Lead_Scoring_PV.xlsx
+│       │   MCH_Kalkulation_Vorlage.xlsx
+│       │   potentieller Umsatz ENKO.xlsx
+│       │   potentieller Umsatz MCH Vertrieb e.U..xlsx
+│       │   Umsatz möglich.xlsx
+│       │   Umsatzliste Marcel Christopher Hütter 2025.xlsx
+│       │
+│       ├───Archiv
+│       │       Kalkulation_KUNDE Vorlage Neu.xlsx
+│       │
+│       └───Leads ENKO GmbH - Marcel-Huetter.xlsx.app
+│           └───Contents
+│               │   Info.plist
+│               │
+│               ├───Resources
+│               │       ApplicationIcon.icns
+│               │
+│               └───_CodeSignature
+│                       CodeDirectory
+│                       CodeRequirements
+│                       CodeResources
+│                       CodeSignature
+│
+├───MCH Vertrieb
+│   ├───backend
+│   │   └───Protokolle
+│   │       ├───260210
+│   │       │       Angebot_PV_Gerhard_Hoerhager.pdf
+│   │       │
+│   │       ├───260211
+│   │       │       260211_dkdb.txt
+│   │       │       Fragen.txt
+│   │       │       iCloud_kalender_marcel.txt
+│   │       │       Notstromlösung.txt
+│   │       │       Speicher.txt
+│   │       │       TODOs.txt
+│   │       │
+│   │       └───260212
+│   │               260212_dkdb.txt
+│   │
+│   └───Unternehmen
+│       │   Einkommenssteuerberechnung.xlsx
+│       │
+│       ├───A1 Handy Business
+│       │       A1 Business Mobil Unlimited S_20250610.pdf
+│       │       A1 EB Allgemein 2025_06.pdf
+│       │       AGB Business.pdf
+│       │       LB Mobil 2025.pdf
+│       │       Vertrag.pdf
+│       │       Vertragszusammenfassung.pdf
+│       │
+│       ├───Geschäftspartner
+│       │   ├───ENKO GmbH
+│       │   │   ├───Photovoltaik
+│       │   │   │   ├───Datenaufnahmen
+│       │   │   │   │   ├───Bedarfsanalysen
+│       │   │   │   │   │       Bedarfsanalyse Harald Nussbaumer .pdf
+│       │   │   │   │   │       Bedarfsanalyse Harald Nussbaumer.pdf
+│       │   │   │   │   │       Bedarfsanalyse Stefan Resch.pdf
+│       │   │   │   │   │       Bedarfsanalyse Thomas Hofer .pdf
+│       │   │   │   │   │
+│       │   │   │   │   └───Hartmann (Reiter-Glas)
+│       │   │   │   │           Foto Zählerkasten 1 Büro Hartmann (Reiter-Glas).jpeg
+│       │   │   │   │           Foto Zählerkasten 2 Wekstatt Hartmann (Reiter-Glas) .jpeg
+│       │   │   │   │           Jahresstromabrechnung Hartmann (Reiter-Glas) .pdf
+│       │   │   │   │           Pläne Cupboard PV Hartmann (Reiter-Glas).pdf
+│       │   │   │   │           Übersicht Bauort Hartmann (Reiter-Glas) .png
+│       │   │   │   │
+│       │   │   │   ├───Kunden
+│       │   │   │   │   └───Abgeschlossen
+│       │   │   │   │       ├───Bernhard Eppenschwandter
+│       │   │   │   │       │       Angebot PV Bernhard Eppenschwandter.pdf
+│       │   │   │   │       │       Anzahlungsrechnung Bernhard Eppenschwandter.pdf
+│       │   │   │   │       │       Auftragsbestätigung Bernhard Eppenschwandter.pdf
+│       │   │   │   │       │       Jahresstromabrechnung Bernhard Eppenschwandter.pdf
+│       │   │   │   │       │
+│       │   │   │   │       ├───Cassandra Fellner-Groß
+│       │   │   │   │       │   │   AB Fellner-Groß.pdf
+│       │   │   │   │       │   │   Angebot Cassandra Fellner-Gross PV .pdf
+│       │   │   │   │       │   │   Datenaufnahme Cassandra Fellner-Groß.docx
+│       │   │   │   │       │   │   Zählernummer alt.jpg
+│       │   │   │   │       │   │
+│       │   │   │   │       │   └───Fotos Cassandra Fellner-Groß
+│       │   │   │   │       │           172B1066-2227-4479-A8B1-B29837486E26_1_105_c.jpeg
+│       │   │   │   │       │           43A3D91D-086A-41CB-BB8C-5A09B6AE21C1_1_105_c.jpeg
+│       │   │   │   │       │           67B4C050-3284-445E-86BD-D56B3524F3B4_1_105_c.jpeg
+│       │   │   │   │       │           94D24A75-53E6-49E3-93A7-D7BBC3FD9B3E_1_105_c.jpeg
+│       │   │   │   │       │           A89BA027-9BFC-4A15-8987-DEC3CF5D75C0_1_105_c.jpeg
+│       │   │   │   │       │           E11E6EFC-EF5E-4B3E-9D3E-753232E9F883_1_105_c.jpeg
+│       │   │   │   │       │           EAD8FADA-9B31-4161-8C10-2AE7C7E9F640_1_105_c.jpeg
+│       │   │   │   │       │           F555F32B-54BC-401F-A28B-C84A4AE7C527_1_105_c.jpeg
+│       │   │   │   │       │
+│       │   │   │   │       ├───Christoph Machleidt
+│       │   │   │   │       │       AB PV Christoph Machleidt.pdf
+│       │   │   │   │       │       Angebot PV Christoph Machleidt .pdf
+│       │   │   │   │       │       Anzahlungsrechnung Christoph Machleidt PV.pdf
+│       │   │   │   │       │
+│       │   │   │   │       ├───Daniel Mandlbauer
+│       │   │   │   │       │       Angebot PV Mandlbauer Speichererweiterung_251224_110235.pdf
+│       │   │   │   │       │       Daniel Mandlbauer Angebot PV unterschrieben .pdf
+│       │   │   │   │       │
+│       │   │   │   │       ├───Johannes Schatzl
+│       │   │   │   │       │       Angebot PV Johannes Schatzl 6 kWp.pdf
+│       │   │   │   │       │       Angebot PV Johannes Schatzl.pdf
+│       │   │   │   │       │       Geldwaäscheschulung Johannes Schatzl Leasing.pdf
+│       │   │   │   │       │       Jahresstromabrechnung Johannes Schatzl (Kerstin Stürz).pdf
+│       │   │   │   │       │       Kalkulation_KUNDE Schatzl.xlsx
+│       │   │   │   │       │
+│       │   │   │   │       ├───Michael Dallinger
+│       │   │   │   │       │       Angebot PV Michael Dallinger.pdf
+│       │   │   │   │       │       Kalkulation_KUNDE Dallinger.xlsx
+│       │   │   │   │       │
+│       │   │   │   │       ├───Patrick Pöschl
+│       │   │   │   │       │       Angebot Patrick Pöschl PV.pdf
+│       │   │   │   │       │       Kalkulation_KUNDE Pöschl.xlsx
+│       │   │   │   │       │       Patrick Pöschl Stromabrechnung 2.jpeg
+│       │   │   │   │       │       Patrick Pöschl Stromrechnung.jpeg
+│       │   │   │   │       │
+│       │   │   │   │       ├───Rene Fartek
+│       │   │   │   │       │       Angebot Rene Fartek PV 20 kWh Speicher.pdf
+│       │   │   │   │       │       Angebot Rene Fartek PV.pdf
+│       │   │   │   │       │       Kalkulation_KUNDE Fartek.xlsx
+│       │   │   │   │       │       Rene Fartek Datenaufnahme.docx
+│       │   │   │   │       │
+│       │   │   │   │       ├───Roland Hartl
+│       │   │   │   │       │       AB PV Roland Hartl.pdf
+│       │   │   │   │       │       Angebot PV Roland Hartl.pdf
+│       │   │   │   │       │       Anzahlungsrechnung Roland Hartl PV.pdf
+│       │   │   │   │       │
+│       │   │   │   │       ├───Stefan Petz
+│       │   │   │   │       └───Thomas Hofer
+│       │   │   │   │               AB PV Thomas Hofer.pdf
+│       │   │   │   │               Angebot PV Thomas Hofer.pdf
+│       │   │   │   │               Angebot Thomas Hofer PV 2.pdf
+│       │   │   │   │               Anzahlungsrechnung PV Thomas Hofer.pdf
+│       │   │   │   │               Jahresstromabrechnung Thomas Hofer.pdf
+│       │   │   │   │               Thomas Hofer Dach .png
+│       │   │   │   │
+│       │   │   │   ├───Projekt Agrar PV Laakirchen
+│       │   │   │   │   ├───Angebot
+│       │   │   │   │   └───Finanzierungsunterlagen Agrar PV
+│       │   │   │   │           250407_Energieauswertung_AGRI-PV Pülzl Laaki rchen.pdf
+│       │   │   │   │           250509_Einreichplan_AGRI-PV Grafing Laakirchen-1.pdf
+│       │   │   │   │           250509_PV-Sol_AGRI-PV Pülzl Laakirchen.pdf
+│       │   │   │   │           Angebot '24-0126' (004).pdf
+│       │   │   │   │           Angebot 41576 TP Energy GmbH für PV-Überschussanlage mit 30-kV-Leitungsverkabelung Oberw eis.pdf
+│       │   │   │   │           Angebot Nr. 2025123.pdf
+│       │   │   │   │           Angebot_Freifläche_TP Energy.pdf
+│       │   │   │   │           Auftragsbrief TP ENERGY.pdf
+│       │   │   │   │           Ausweiskopie.pdf
+│       │   │   │   │           AVB Baufa.pdf
+│       │   │   │   │           generallvollmacht_UB_TP.pdf
+│       │   │   │   │           Kundmachung_GR-Beschlüsse_01102024[1]_241008 _091125.pdf
+│       │   │   │   │           Prognoserechnung Phase 1_Teil1PV_ohne Speicher 0089.xlsx
+│       │   │   │   │           Risikoplanung.pdf
+│       │   │   │   │           Stellungnahme Agrar PV.png
+│       │   │   │   │           Tracker OST West Datenblatt_Powertec.pdf
+│       │   │   │   │           Umlaufbeschluss GF.pdf
+│       │   │   │   │           Verhandlungsschrift_GR.pdf
+│       │   │   │   │           zl34_16_Bankgarantie_AMERING_Einforderung_Anlage_A.pdf
+│       │   │   │   │
+│       │   │   │   └───Sonstiges
+│       │   │   │           Angebote erstellen ENKO.docx
+│       │   │   │           Angebote nachrufen ENKO.docx
+│       │   │   │           Dacharten.avif
+│       │   │   │           Dachziegelarten.jpg
+│       │   │   │           Datenblatt_AC-THOR-9s_de_211220_A4.pdf
+│       │   │   │           ENKO Checklis Bedarfsanalyse.pdf
+│       │   │   │           Leads anrufen ENKO.docx
+│       │   │   │           Max Musterangebot 1 2025-09-24.pdf
+│       │   │   │
+│       │   │   └───Strom
+│       │   │       ├───Alex Schgör
+│       │   │       │       PHOTO-2025-08-30-20-57-52.jpg
+│       │   │       │       Rechnung_11.08.2025_503000348737.pdf
+│       │   │       │       Rechnung_11.12.2024_504000297804.pdf
+│       │   │       │
+│       │   │       ├───Christian Schachl-Hirner
+│       │   │       │       10252598_1000738983_20250731_1102500066501_10_2025_R_794.pdf
+│       │   │       │       Christian Schachl-Hirner Strom Montana.pdf
+│       │   │       │
+│       │   │       ├───Info
+│       │   │       │       ENKO Strom-Gas.pdf
+│       │   │       │
+│       │   │       └───Stefan Petz
+│       │   │               PHOTO-2025-06-18-11-42-53 2.jpg
+│       │   │               PHOTO-2025-06-18-11-42-53 3.jpg
+│       │   │               PHOTO-2025-06-18-11-42-53.jpg
+│       │   │               PHOTO-2025-06-18-11-45-40.jpg
+│       │   │
+│       │   ├───KL-Montagen (Ferstl)
+│       │   │   │   Angebote erstellen KL (Ferstl).docx
+│       │   │   │   Angebote nachrufen KL (Ferstl).docx
+│       │   │   │   Leads anrufen KL (Ferstl).docx
+│       │   │   │
+│       │   │   └───Kunden
+│       │   │       ├───Abgesagt KL Montagen
+│       │   │       │   └───Vasilie Todoran
+│       │   │       │       │   Angebot PV Vasilie Todoran.pdf
+│       │   │       │       │   Jahresstromabrechnung Vasilie Todoran.pdf
+│       │   │       │       │   Planung PV Vasilie Todoran.pdf
+│       │   │       │       │
+│       │   │       │       └───Fotos Vasilie Todoran
+│       │   │       │               IMG_3921.jpeg
+│       │   │       │               IMG_3922.jpeg
+│       │   │       │               IMG_3923.jpeg
+│       │   │       │               IMG_3924.jpeg
+│       │   │       │               IMG_3925.jpeg
+│       │   │       │               IMG_3926.jpeg
+│       │   │       │               IMG_3927.jpeg
+│       │   │       │               IMG_3928.jpeg
+│       │   │       │
+│       │   │       ├───Abgeschlossen KL Montagen
+│       │   │       │   └───Patrick Pöschl
+│       │   │       │           Angebot Patrick Pöschl PV.pdf
+│       │   │       │           Patrick Pöschl Stromrechnung.jpeg
+│       │   │       │
+│       │   │       └───Potential KL Montagen
+│       │   │           ├───Heribert Froschauer
+│       │   │           │       Froschauer_Ertragsbericht.pdf
+│       │   │           │       Froschauer_Offert_N09110-1_5690046891466118167.pdf
+│       │   │           │
+│       │   │           └───Jasmin Schwarz
+│       │   │                   Schwarz_Gesamtbericht.pdf
+│       │   │                   Schwarz_Offert_N09111-1_7954907332147112396.pdf
+│       │   │                   Überlegungen und Planungsgrundlage Schwarz.pdf
+│       │   │
+│       │   ├───Protectmesh GmbH
+│       │   │   │   Meeting Protectmesh GmbH.docx
+│       │   │   │   OneDrive - PROTECTMESH GMBH
+│       │   │   │   PM_MH_Kontakte Gemeinden_20250823.csv
+│       │   │   │   PROTECTMESH GMBH
+│       │   │   │   WhatsApp Image 2025-09-04 at 08.19.40.jpeg
+│       │   │   │
+│       │   │   ├───Gemeinde Stadt Gmunden
+│       │   │   │       STADTTHEATER - Auftragsschreiben PROTECTMESH GmbH. - Zutrittskontrolle WC 2025.pdf
+│       │   │   │
+│       │   │   ├───Gemeinde Stadt Vöcklabruck
+│       │   │   │   └───Angebote
+│       │   │   │           An-19_2025-2.pdf
+│       │   │   │           An-19_2025.pdf
+│       │   │   │           An-20_2025.pdf
+│       │   │   │           An-21_2025.pdf
+│       │   │   │
+│       │   │   ├───Sonstiges
+│       │   │   │       Protectmesh MCH Vertrieb - MOU.pdf
+│       │   │   │       Protectmesh x MCH Vertrieb NDA.pdf
+│       │   │   │       USP_Protectmesh.pdf
+│       │   │   │
+│       │   │   └───Verkaufsunterlagen
+│       │   │           20202709_Databunker_FalzFolder_A4 (1).pdf
+│       │   │           Aquiring Box.pdf
+│       │   │           Park-Eintrittsautomaten.pdf
+│       │   │           PHOTO-2025-08-06-09-41-00 2.jpg
+│       │   │           PHOTO-2025-08-06-09-41-00.jpg
+│       │   │           Starkl_Flow.pdf
+│       │   │
+│       │   └───Sicherheitssysteme Vöcklabruck GmbH
+│       │           An-VB-212_2025.pdf
+│       │           An-VB-245_2025.pdf
+│       │           PM_MH_Kontakte Gemeinden_20250823.csv
+│       │
+│       ├───Rechnungen
+│       │   ├───Ausgangsrechnungen
+│       │   │   ├───Februar 2025
+│       │   │   │       RE-1022 ENKO GmbH Mandlbauer + Strom und Gas .pdf
+│       │   │   │
+│       │   │   ├───Juli 2025
+│       │   │   │       RE-1000 ENKO GmbH Mandlbauer.pdf
+│       │   │   │       RE-1001 ENKO GmbH Petz.pdf
+│       │   │   │
+│       │   │   ├───November 2025
+│       │   │   │   ├───ENKO GmbH
+│       │   │   │   │       RE-1016 ENKO GmbH Fellner-Groß.pdf
+│       │   │   │   │       RE-1018 ENKO GmbH Schatzl.pdf
+│       │   │   │   │       RE-1019 ENKO GmbH Dallinger.pdf
+│       │   │   │   │       RE-1020 ENKO Pöschl.pdf
+│       │   │   │   │
+│       │   │   │   └───Protectmesh GmbH
+│       │   │   │           RE-1021 Stadt Gmunden - Kursaalgasse.pdf
+│       │   │   │
+│       │   │   ├───Oktober 2025
+│       │   │   │   │   RE-1003 ENKO GmbH Hartl.pdf
+│       │   │   │   │   RE-1004 ENKO GmbH Machleidt.pdf
+│       │   │   │   │   RE-1005 ENKO GmbH Hofer.pdf
+│       │   │   │   │   RE-1017 ENKO GmbH Eppenschwandter.pdf
+│       │   │   │   │
+│       │   │   │   └───Stornorechnungen
+│       │   │   │           RE-1006 ENKO GmbH Fellner-Groß.pdf
+│       │   │   │           RE-1007 ENKO GmbH Eppenschwandter.pdf
+│       │   │   │           RE-1008 ENKO GmbH Schatzl.pdf
+│       │   │   │           RE-1008.pdf
+│       │   │   │           RE-1009 ENKO GmbH Dallinger.pdf
+│       │   │   │           RE-1010 ENKO GmbH Pöschl.pdf
+│       │   │   │           Stornorechnung zu RE-1006.pdf
+│       │   │   │           Stornorechnung zu RE-1007.pdf
+│       │   │   │           Stornorechnung zu RE-1008.pdf
+│       │   │   │
+│       │   │   └───September 2025
+│       │   │           RE-1002 ENKO GmbH Vermittlungstätigkeiten Pauschale.pdf
+│       │   │
+│       │   ├───Rechnungen 2026
+│       │   │   └───Ausgangsrechnungen 2026
+│       │   │       └───Februar 2026
+│       │   │               RE-1022 ENKO GmbH Mandlbauer + Strom und Gas .pdf
+│       │   │
+│       │   └───Rechnungen MCH Consulting
+│       │       ├───Rechnungen 2025
+│       │       │   ├───ASAK Internet
+│       │       │   │       ASAK, 01.10.2025.PDF
+│       │       │   │
+│       │       │   ├───Audi A6 Allroad MCH
+│       │       │   │       KFZ Pickerl, 07.10.2025.pdf
+│       │       │   │       Rechnung Autobahnvignette.pdf
+│       │       │   │       RWA Auböck, 29.08.2025.pdf
+│       │       │   │       Werkstatt KFZ, 07.10.2025.pdf
+│       │       │   │       ÖAMTC, 29.09.2025.pdf
+│       │       │   │
+│       │       │   ├───Autowäschen
+│       │       │   │       Autowäsche, 19.11.2025.pdf
+│       │       │   │       Autowäsche, 29.10.2025.pdf
+│       │       │   │
+│       │       │   ├───Büroartikel MCH
+│       │       │   │       Büroartikel, 13.10.2025.pdf
+│       │       │   │       Büroartikel, 26.08.2025.pdf
+│       │       │   │       Büroartikel, 27.08.2025.pdf
+│       │       │   │       Media M. - Monitor.pdf
+│       │       │   │       Organizer, 06.07.2025 .pdf
+│       │       │   │
+│       │       │   ├───Bürogebäude MCH
+│       │       │   │       Dauerschuldrechnung MCH_20251012.pdf
+│       │       │   │       Mietvereinbarung Büro MCH Vertrieb e.U. .pdf
+│       │       │   │
+│       │       │   ├───Computerprogramme MCH
+│       │       │   │       Sevdesk, 25.09.2025.pdf
+│       │       │   │       Website IONOS, 10.07.2025.pdf
+│       │       │   │
+│       │       │   ├───Geschäftsessen 2025
+│       │       │   │       Geschäftsessen 21.11.2025.pdf
+│       │       │   │       Geschäftsessen 22.11.2025.pdf
+│       │       │   │       Geschäftsessen, 09.11.2025.pdf
+│       │       │   │       Geschäftsessen, 11.11.2025 2.pdf
+│       │       │   │       Geschäftsessen, 16.07.2025.pdf
+│       │       │   │       Geschäftsessen, 16.10.2025.pdf
+│       │       │   │       Geschäftspartner Essen 07.08.2025.pdf
+│       │       │   │
+│       │       │   ├───Handy A1
+│       │       │   │   │   A1 Handy 25.07.2025.pdf
+│       │       │   │   │   A1 Handy, 25.08.2025.pdf
+│       │       │   │   │   A1 Handy, 25.09.2025 .pdf
+│       │       │   │   │   A1 Handy, 26.06.2025.pdf
+│       │       │   │   │   Anzahlung Handy, 25.09.2025.pdf
+│       │       │   │   │   Handyzubehör, 09.10.2025.jpeg
+│       │       │   │   │
+│       │       │   │   └───Firmenhandy ab Oktober 2025
+│       │       │   │           A1 Business Handy, 12.11.2025.pdf
+│       │       │   │           A1 Business Handy, 13.10.2025.pdf
+│       │       │   │           A1 Handy Business, 12.12.2025.pdf
+│       │       │   │
+│       │       │   ├───Honorarnote
+│       │       │   │       Honoranote Marcel Hütter.pdf
+│       │       │   │       Honorarnote 07.07.2025.pdf
+│       │       │   │       Honrarnote Zahnarzt, 10.09.2025.pdf
+│       │       │   │       Massage, 29.10.2025.pdf
+│       │       │   │       Rechnung Hautarzt.pdf
+│       │       │   │
+│       │       │   ├───Parkkarten 2025
+│       │       │   │       Parken, 11.07.2025.pdf
+│       │       │   │       Parken, 12.09.2025.pdf
+│       │       │   │       Parken, 16.10.2025.pdf
+│       │       │   │       Parken, 24.09.2025.pdf
+│       │       │   │
+│       │       │   ├───sonstige Einkäufe MCH
+│       │       │   │       Kundengeschenk, 24.07.2025.pdf
+│       │       │   │       Wedl, 10.11.2025.pdf
+│       │       │   │
+│       │       │   └───Tanken MCH
+│       │       │           Tanken 28.11.2025.pdf
+│       │       │           Tanken, 01.12.2025.pdf
+│       │       │           Tanken, 02.10.2025.pdf
+│       │       │           Tanken, 03.08.2025.pdf
+│       │       │           Tanken, 04.11.2025.pdf
+│       │       │           Tanken, 08.11.2025.pdf
+│       │       │           Tanken, 10.10.2025.pdf
+│       │       │           Tanken, 12.12.2025.pdf
+│       │       │           Tanken, 13.08.2025.pdf
+│       │       │           Tanken, 16.11.2025.pdf
+│       │       │           Tanken, 17.07.2025.pdf
+│       │       │           Tanken, 18.10.2025.pdf
+│       │       │           Tanken, 21.08.2025.pdf
+│       │       │           Tanken, 21.12.2025.pdf
+│       │       │           Tanken, 23.07.2025.pdf
+│       │       │           Tanken, 25.11.2025.pdf
+│       │       │           Tanken, 26.01.2026.pdf
+│       │       │           Tanken, 27.12.2025.pdf
+│       │       │           Tanken, 29.08.2025.pdf
+│       │       │           Tanken, 29.10.2025.pdf
+│       │       │           Tanken, 30.05.2025.pdf
+│       │       │
+│       │       └───Rechnungen 2026
+│       │           └───A1 Business Handy
+│       │                   A1 Business Handy, 15.01.2026.pdf
+│       │
+│       ├───Sonstiges
+│       │       2025_Reisekostenabrechnung O&P_Vorlage.xlsx
+│       │       Businessplan Beispiel PV Vermittlung.pages
+│       │       Businessplan Vorlage bearbeitbar.pages
+│       │       Businessplan Vorlage.pdf
+│       │       Consulting Notizen.pages
+│       │       Einkommenssteuertabelle 2026.png
+│       │       Erfolgs-Journal.pdf
+│       │       Fördercalls 2025.png
+│       │       GISA-Auszug Info.pdf
+│       │       Kilometergeld Vorlage.xlsx
+│       │       MCH Logo.jpg
+│       │       MCH Logo.pdf
+│       │       MCH Vertrieb Logo.jpeg
+│       │       MCH Vertrieb Unternehmensübersicht.docx
+│       │       MCH Vertrieb_Mietvereinbarung_20250921.docx
+│       │       Mietvereinbarung Büro MCH Vertrieb e.U. .pdf
+│       │       Mitarbeiter Rechnung MCH Vertrieb e.U..png
+│       │       Photovoltaik_Leitfaden.pdf
+│       │       Vertriebsunternehmen_Checkliste.pdf
+│       │       Vertriebsunternehmen_Fahrplan.pdf
+│       │       Zusammenfassung Gespräch mit Jakob am 05.docx
+│       │       Zylindermaatrix Büroschloss  Kopie.pdf
+│       │       Zylindermaatrix Büroschloss .pdf
+│       │
+│       ├───Steuern
+│       │   ├───Ornezeder Steuerberatung
+│       │   │   ├───Steuerausgleich  2020
+│       │   │   │   │   Einkommenssteuerbescheid 2020.pdf
+│       │   │   │   │   Kaufvertrag Renault Scenic.pdf
+│       │   │   │   │   Rechnung August Sögner Academy.pdf
+│       │   │   │   │   Rechnung Dezember 2020.pdf
+│       │   │   │   │   Rechnung Dezember.pdf
+│       │   │   │   │   Rechnung Juni Sögner Academy.pdf
+│       │   │   │   │   Rechnung Sögner Academy Oktober.pdf
+│       │   │   │   │   Rechnung Sögner Academy September.pdf
+│       │   │   │   │   Renault Megane Kaufvertrag.jpg
+│       │   │   │   │   Serviceordner Rechnung Juli.pdf
+│       │   │   │   │   Serviceordner Rechnung Juni.pdf
+│       │   │   │   │   Sögner Academy Rechnung August.pdf
+│       │   │   │   │   Überweisung WKO, 04.09.20.pdf
+│       │   │   │   │   Überweisung, Prüfungsgebühr 14.08.20.pdf
+│       │   │   │   │
+│       │   │   │   ├───A1 Rechnungen
+│       │   │   │   │       Dezember.pdf
+│       │   │   │   │       Juli .pdf
+│       │   │   │   │       Oktober.pdf
+│       │   │   │   │       September.pdf
+│       │   │   │   │
+│       │   │   │   ├───Abonnements
+│       │   │   │   ├───ASAK Rechnungen
+│       │   │   │   │       August.PDF
+│       │   │   │   │       Dezember.PDF
+│       │   │   │   │       November.PDF
+│       │   │   │   │       Oktober.PDF
+│       │   │   │   │
+│       │   │   │   ├───Bücher&#x3a; Hörbücher
+│       │   │   │   ├───Büro
+│       │   │   │   ├───iCloud Rechnungen
+│       │   │   │   │       November.jpg
+│       │   │   │   │       Oktober.jpg
+│       │   │   │   │
+│       │   │   │   ├───Jahresabschluss 2020
+│       │   │   │   │       Einkommenssteuer Jahresabschluss 2020 .pdf
+│       │   │   │   │
+│       │   │   │   ├───Kundenrechnungen
+│       │   │   │   ├───Rechnungen Allgemein
+│       │   │   │   ├───Tankrechnung
+│       │   │   │   └───Weiterbildungen
+│       │   │   ├───Steuerausgleich 2019
+│       │   │   │   │   KFZ Ford Fiesta.pdf
+│       │   │   │   │
+│       │   │   │   ├───A1 Rechnungen
+│       │   │   │   ├───Abonnements
+│       │   │   │   ├───ASAK Rechnungen
+│       │   │   │   ├───Bücher&#x3a; Hörbücher
+│       │   │   │   ├───Büro
+│       │   │   │   ├───iCloud Rechnungen
+│       │   │   │   ├───Kundenrechnungen
+│       │   │   │   ├───Rechnungen Allgemein
+│       │   │   │   ├───Tankrechnung
+│       │   │   │   └───Weiterbildungen
+│       │   │   ├───Steuerausgleich 2021
+│       │   │   │   │   Kaufvertrag Renault Scenic, 07.09.21.pdf
+│       │   │   │   │   KFZ-HP Opel Zafira.pdf
+│       │   │   │   │   Steuerberater Honorarnote 20.07.21.pdf
+│       │   │   │   │   Summen Steuerbelege 2021.numbers.pkgf
+│       │   │   │   │   Summen Steuerbelege 2021.pdf
+│       │   │   │   │
+│       │   │   │   ├───Abonnements
+│       │   │   │   │   ├───Asak
+│       │   │   │   │   │       Asak, 01.02.21.PDF
+│       │   │   │   │   │       Asak, 01.03.21.PDF
+│       │   │   │   │   │       Asak, 01.04.21.PDF
+│       │   │   │   │   │       Asak, 01.06.21.PDF
+│       │   │   │   │   │       Asak, 01.07.21.PDF
+│       │   │   │   │   │       Asak, 01.09.21.PDF
+│       │   │   │   │   │       Asak, 01.10.21.PDF
+│       │   │   │   │   │       Asak, 01.12.21.PDF
+│       │   │   │   │   │       Asak, 02.08.21.PDF
+│       │   │   │   │   │       Asak, 02.11.21.PDF
+│       │   │   │   │   │       Asak, 03.05.21.PDF
+│       │   │   │   │   │       Asak, 04.01.21.PDF
+│       │   │   │   │   │
+│       │   │   │   │   ├───Audible
+│       │   │   │   │   │       Audible, 05.03.21.pdf
+│       │   │   │   │   │       Audible, 10.05.21.pdf
+│       │   │   │   │   │       Audible, 25.05.21.pdf
+│       │   │   │   │   │       Audible, 25.06.21.pdf
+│       │   │   │   │   │       Audible, 25.07.21.pdf
+│       │   │   │   │   │       Audible, 29.01.21.pdf
+│       │   │   │   │   │
+│       │   │   │   │   └───iCloud
+│       │   │   │   │           iCloud, 03.06.21.pdf
+│       │   │   │   │           iCloud, 03.07.21.pdf
+│       │   │   │   │           iCloud, 03.08.21.pdf
+│       │   │   │   │           iCloud, 03.09.21.pdf
+│       │   │   │   │           iCloud, 03.11.21.pdf
+│       │   │   │   │           iCloud, 03.12.21.jpg
+│       │   │   │   │           iCloud, 04.05.21.pdf
+│       │   │   │   │           iCloud, 04.10.21.pdf
+│       │   │   │   │           iCloud, 14.01.21.pdf
+│       │   │   │   │           iCloud, 14.02.21.pdf
+│       │   │   │   │           iCloud, 14.03.21.pdf
+│       │   │   │   │           iCloud, 14.04.21.pdf
+│       │   │   │   │
+│       │   │   │   ├───Apotheke
+│       │   │   │   │       Apotheke, 13.03.21.pdf
+│       │   │   │   │
+│       │   │   │   ├───Arzt
+│       │   │   │   │       Hautarzt, 16.03.21.pdf
+│       │   │   │   │       Hautarzt, 21.04.21.pdf
+│       │   │   │   │       Zahnarzt, 16.11.21.pdf
+│       │   │   │   │
+│       │   │   │   ├───Bücher&#x3a; Hörbücher
+│       │   │   │   │       Buch, 17.07.21.pdf
+│       │   │   │   │       Der Aktionär, Zeitschrift, 17.06.21.pdf
+│       │   │   │   │
+│       │   │   │   ├───Büro
+│       │   │   │   │       Duftkerze Büroartikel, 18.05.21.pdf
+│       │   │   │   │       Entgelt Miete monatlich ab 01.07.20.pdf
+│       │   │   │   │       Entgelt Miete monatlich ab 01.07.21.pdf
+│       │   │   │   │       Raumduft Büroartikel, 19.05.21.pdf
+│       │   │   │   │       Rechnung Bürotisch, 08.07.21.pdf
+│       │   │   │   │
+│       │   │   │   ├───Firmenauto
+│       │   │   │   │   │   Anmeldung Opel Zafira.pdf
+│       │   │   │   │   │   Kaufvertrag Opel Zafira .pdf
+│       │   │   │   │   │   KFZ-HP Opel Zafira.pdf
+│       │   │   │   │   │   KFZ-HP Renault Scenic.pdf
+│       │   │   │   │   │   Ver Kaufvertrag Renault, 07.09.21.pdf
+│       │   │   │   │   │   Vignette, 10.12.21.pdf
+│       │   │   │   │   │
+│       │   │   │   │   ├───Autopflege
+│       │   │   │   │   │       Carwash, 15.12.21.pdf
+│       │   │   │   │   │       Carwash, 19.05.2021.pdf
+│       │   │   │   │   │       Carwash, 19.12.2021.pdf
+│       │   │   │   │   │       Carwash, 28.10.21.pdf
+│       │   │   │   │   │       Felgenreiniger.pdf
+│       │   │   │   │   │
+│       │   │   │   │   └───Tankrechnung
+│       │   │   │   │           Tanken, 02.10.21.pdf
+│       │   │   │   │           Tanken, 07.07.21.pdf
+│       │   │   │   │           Tanken, 07.11.21.pdf
+│       │   │   │   │           Tanken, 08.10.21.pdf
+│       │   │   │   │           Tanken, 09.03.21.pdf
+│       │   │   │   │           Tanken, 10.06.21.pdf
+│       │   │   │   │           Tanken, 11.11.21.pdf
+│       │   │   │   │           Tanken, 11.12.21.pdf
+│       │   │   │   │           Tanken, 12.12.21.pdf
+│       │   │   │   │           Tanken, 13.05.21.pdf
+│       │   │   │   │           Tanken, 14.06.21.pdf
+│       │   │   │   │           Tanken, 16.07.21.pdf
+│       │   │   │   │           Tanken, 16.10.21.pdf
+│       │   │   │   │           Tanken, 16.12.21.pdf
+│       │   │   │   │           Tanken, 17.12.21.pdf
+│       │   │   │   │           Tanken, 19.05.21.pdf
+│       │   │   │   │           Tanken, 20.11.21.pdf
+│       │   │   │   │           Tanken, 21.06.21.pdf
+│       │   │   │   │           Tanken, 22.07.21.pdf
+│       │   │   │   │           Tanken, 22.09.21.pdf
+│       │   │   │   │           Tanken, 23.11.21.pdf
+│       │   │   │   │           Tanken, 23.12.21.pdf
+│       │   │   │   │           Tanken, 26.06.21.pdf
+│       │   │   │   │           Tanken, 29.11.21.pdf
+│       │   │   │   │           Tanken, 3.12.21.pdf
+│       │   │   │   │           Tanken, 30.09.21.pdf
+│       │   │   │   │           Tanken, 30.10.21 (2).pdf
+│       │   │   │   │           Tanken, 30.10.21.pdf
+│       │   │   │   │           Tanken, 30.11.21.pdf
+│       │   │   │   │
+│       │   │   │   ├───Firmenhandy
+│       │   │   │   │   ├───Rechnungen-Handy allg.  -20205
+│       │   │   │   │   │       Apple Iphone SE 64GB , 03.12.21.pdf
+│       │   │   │   │   │       Handyhülle, 15.03.21.pdf
+│       │   │   │   │   │       Handyhülle, 28.07.21.pdf
+│       │   │   │   │   │       Handyreparatur, 30.03.21.pdf
+│       │   │   │   │   │
+│       │   │   │   │   └───Telefonrechnungen
+│       │   │   │   │           A1, 02.08.21.pdf
+│       │   │   │   │           A1, 20.05.21.pdf
+│       │   │   │   │           A1, 21.01.21.pdf
+│       │   │   │   │           A1, 21.10.21.pdf
+│       │   │   │   │           A1, 22.02.21.pdf
+│       │   │   │   │           A1, 22.03.21.pdf
+│       │   │   │   │           A1, 22.06.21.pdf
+│       │   │   │   │           A1, 22.07.21.pdf
+│       │   │   │   │           A1, 22.09.21.pdf
+│       │   │   │   │           A1, 22.11.21.pdf
+│       │   │   │   │           A1, 22.12.21.pdf
+│       │   │   │   │           A1, 26.04.21.pdf
+│       │   │   │   │
+│       │   │   │   ├───Jahresabschluss 2021
+│       │   │   │   │       Einkommenssteuer Jahresabschluss 2021.pdf
+│       │   │   │   │       Einkommensteuerbescheid 2021.pdf
+│       │   │   │   │
+│       │   │   │   ├───Kundenordner
+│       │   │   │   │       Serviceordner 03.21 (2).pdf
+│       │   │   │   │       Serviceordner, 01.21.pdf
+│       │   │   │   │       Serviceordner, 03.21.pdf
+│       │   │   │   │
+│       │   │   │   ├───Kundenrechnungen
+│       │   │   │   │   ├───Kundenessen
+│       │   │   │   │   │       Kundenessen, 19.05.21.pdf
+│       │   │   │   │   │
+│       │   │   │   │   └───Kundengeschenke
+│       │   │   │   │           Blumenstrauss , 18.05.21.pdf
+│       │   │   │   │           Nespresso, 19.05.21.pdf
+│       │   │   │   │
+│       │   │   │   ├───Postrechnungen
+│       │   │   │   │       Post, 19.07.21.pdf
+│       │   │   │   │       Post, 20.12.21.pdf
+│       │   │   │   │
+│       │   │   │   ├───Sonstige Rechnungen
+│       │   │   │   │       PHOTO-2022-05-04-18-32-41 2.jpg
+│       │   │   │   │       PHOTO-2022-05-04-18-32-41.jpg
+│       │   │   │   │       PHOTO-2022-05-04-18-32-42 2.jpg
+│       │   │   │   │       PHOTO-2022-05-04-18-32-42.jpg
+│       │   │   │   │       PHOTO-2022-05-04-18-32-43 2.jpg
+│       │   │   │   │       PHOTO-2022-05-04-18-32-43.jpg
+│       │   │   │   │       PHOTO-2022-05-04-18-33-54.jpg
+│       │   │   │   │       Prüfungsgebühr Gewerblicher Vermögensberater, 12.02.21.pdf
+│       │   │   │   │       Steuerberater, 20.07.21 .pdf
+│       │   │   │   │       Vermögenschadenhaftpflichtversicherung 09.03.21.pdf
+│       │   │   │   │
+│       │   │   │   └───Weiterbildungen
+│       │   │   │           Digitale Lern- und Wissensplattform, 09.06.21.PDF
+│       │   │   │           Michael Sögner Academy, 02.05.21.pdf
+│       │   │   │           Michael Sögner Academy, 03.05.21.pdf
+│       │   │   │           Michael Sögner Academy, 12.05.21.pdf
+│       │   │   │           Michael Sögner Academy, 13.05.21.pdf
+│       │   │   │           Michael Sögner Academy, 14.06.21.pdf
+│       │   │   │           Michael Sögner Academy, 16.04.21 2.pdf
+│       │   │   │           Michael Sögner Academy, 16.04.21.pdf
+│       │   │   │           Michael Sögner Academy, 17.04.21.pdf
+│       │   │   │           Michael Sögner Academy, 17.05.21.pdf
+│       │   │   │           Michael Sögner Academy, 18.04.21.pdf
+│       │   │   │           Michael Sögner Academy, 20.04.21.pdf
+│       │   │   │           Michael Sögner Academy, 23.04.21 2.pdf
+│       │   │   │           Michael Sögner Academy, 23.04.21.pdf
+│       │   │   │           Michael Sögner Academy, 24.04.21 2.pdf
+│       │   │   │           Michael Sögner Academy, 24.04.21.pdf
+│       │   │   │           Michael Sögner Academy, 29.04.21.pdf
+│       │   │   │           Weiterbildung, Diamond Tour (2), 25.06.21.pdf
+│       │   │   │           Weiterbildung, Diamond Tour, 24.06.21.pdf
+│       │   │   │           Weiterbildung, Skilling Day, 20.06.21.pdf
+│       │   │   │
+│       │   │   ├───Steuerausgleich 2022
+│       │   │   │   │   Einkommensteuerbescheid 2022.pdf
+│       │   │   │   │   Freigabe Steuererklärung 2022.pdf
+│       │   │   │   │   Jahresabschluss 2022.pdf
+│       │   │   │   │   Steuerausgleich 2022.zip
+│       │   │   │   │   Summen Steuerbelege 2022.numbers
+│       │   │   │   │   Summen Steuerbelege 2022.pdf
+│       │   │   │   │
+│       │   │   │   ├───Büro 2022
+│       │   │   │   │   ├───ASAK Internet 2022
+│       │   │   │   │   │       ASAK, 01.01.22.pdf
+│       │   │   │   │   │       ASAK, 01.02.22.PDF
+│       │   │   │   │   │       ASAK, 01.03.22.PDF
+│       │   │   │   │   │       ASAK, 01.04.2022.PDF
+│       │   │   │   │   │       ASAK, 01.06.22.PDF
+│       │   │   │   │   │       ASAK, 01.07.2022.PDF
+│       │   │   │   │   │       ASAK, 01.08.22.PDF
+│       │   │   │   │   │       ASAK, 01.09.22.PDF
+│       │   │   │   │   │       ASAK, 01.12.22.PDF
+│       │   │   │   │   │       ASAK, 02.05.22.PDF
+│       │   │   │   │   │       ASAK, 02.11.22.PDF
+│       │   │   │   │   │       ASAK, 03.01.22.PDF
+│       │   │   │   │   │       ASAK, 03.10.22.PDF
+│       │   │   │   │   │
+│       │   │   │   │   └───Sonstige Büroartikel 2022
+│       │   │   │   │           A4 Hefter, 05.07.2022.pdf
+│       │   │   │   │           Blumen, 14.06.2022.pdf
+│       │   │   │   │           Ordner, 06.05.22.pdf
+│       │   │   │   │
+│       │   │   │   ├───Firmenauto 2022
+│       │   │   │   │   ├───Autoreparatur 2022
+│       │   │   │   │   │       Beleg Bremsen vorne, 31.05.22.pdf
+│       │   │   │   │   │       Bremsen vorne, 31.05.22.pdf
+│       │   │   │   │   │       Bremsen, 02.11.2022.pdf
+│       │   │   │   │   │       Bremsflüssigkeit, 04.11.2022.pdf
+│       │   │   │   │   │       Ölfilter, 08.08.2022.pdf
+│       │   │   │   │   │
+│       │   │   │   │   ├───Firmenauto sonstige Rechnungen 2022
+│       │   │   │   │   │       Autowäsche, 30.12.2022.pdf
+│       │   │   │   │   │       Vignette, 20.05.22.pdf
+│       │   │   │   │   │       ÖAMTC, 24.04.2022.pdf
+│       │   │   │   │   │
+│       │   │   │   │   └───Tank rechnungen 2022
+│       │   │   │   │           Tanken 2, 06.11.2022.pdf
+│       │   │   │   │           Tanken 2, 27.11.2022.pdf
+│       │   │   │   │           Tanken 3, 27.11.2022.pdf
+│       │   │   │   │           Tanken, 02.04.2022.pdf
+│       │   │   │   │           Tanken, 03.08.22.pdf
+│       │   │   │   │           Tanken, 03.09.22.pdf
+│       │   │   │   │           Tanken, 03.12.2022.pdf
+│       │   │   │   │           Tanken, 05.05.22.pdf
+│       │   │   │   │           Tanken, 05.08.22.pdf
+│       │   │   │   │           Tanken, 05.09.22.pdf
+│       │   │   │   │           Tanken, 05.10.22.pdf
+│       │   │   │   │           Tanken, 05.11.2022.pdf
+│       │   │   │   │           Tanken, 06.06.22.pdf
+│       │   │   │   │           Tanken, 06.07.2022.pdf
+│       │   │   │   │           Tanken, 06.08.22.pdf
+│       │   │   │   │           Tanken, 06.11.2022.pdf
+│       │   │   │   │           Tanken, 09.06.2022.pdf
+│       │   │   │   │           Tanken, 09.09.22.pdf
+│       │   │   │   │           Tanken, 11.06.2022.pdf
+│       │   │   │   │           Tanken, 11.07.22 .pdf
+│       │   │   │   │           Tanken, 12.08.22.pdf
+│       │   │   │   │           Tanken, 12.09.22.pdf
+│       │   │   │   │           Tanken, 13.07.22 2 .pdf
+│       │   │   │   │           Tanken, 13.07.22.pdf
+│       │   │   │   │           Tanken, 13.08.22.pdf
+│       │   │   │   │           Tanken, 13.10.22 .pdf
+│       │   │   │   │           Tanken, 13.10.22.pdf
+│       │   │   │   │           Tanken, 14.07.22.pdf
+│       │   │   │   │           Tanken, 14.09.22.pdf
+│       │   │   │   │           Tanken, 15.04.22.pdf
+│       │   │   │   │           Tanken, 16.05.22.pdf
+│       │   │   │   │           Tanken, 17.06.2022.pdf
+│       │   │   │   │           Tanken, 17.07.22.pdf
+│       │   │   │   │           Tanken, 18.07.22.pdf
+│       │   │   │   │           Tanken, 18.12.2022.pdf
+│       │   │   │   │           Tanken, 19.07.22.pdf
+│       │   │   │   │           Tanken, 20.05.22.pdf
+│       │   │   │   │           Tanken, 20.06.2022.pdf
+│       │   │   │   │           Tanken, 20.08.22.pdf
+│       │   │   │   │           Tanken, 21.12.2022.pdf
+│       │   │   │   │           Tanken, 23.05.22.pdf
+│       │   │   │   │           Tanken, 24.06.2022.pdf
+│       │   │   │   │           Tanken, 26.12.2022.pdf
+│       │   │   │   │           Tanken, 27.05.22.pdf
+│       │   │   │   │           Tanken, 27.11.2022.pdf
+│       │   │   │   │           Tanken, 28.05.22.pdf
+│       │   │   │   │           Tanken, 29.07.22.pdf
+│       │   │   │   │           Tanken, 30.05.22.pdf
+│       │   │   │   │           Tanken, 30.07.22.pdf
+│       │   │   │   │           Tanken, 30.08.22.pdf
+│       │   │   │   │           Tanken, 30.11.2022.pdf
+│       │   │   │   │           Tanken, 30.12.2022.pdf
+│       │   │   │   │           Tanken, 31.10.22.pdf
+│       │   │   │   │
+│       │   │   │   ├───Firmenhandy 2022
+│       │   │   │   │   ├───A1 Mobiltelefon 2022
+│       │   │   │   │   │       A1 Mobiltelefon, 20.01.22.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 20.05.22.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 20.10.22.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 20.11.22.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 21.07.22.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 22.02.22.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 22.03.22.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 22.04.22.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 22.06.22.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 22.08.22.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 22.09.22.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 22.12.22.pdf
+│       │   │   │   │   │
+│       │   │   │   │   └───Apple iCloud 2022
+│       │   │   │   │           Apple Icloud,  04.07.2022.pdf
+│       │   │   │   │           Apple Icloud, 03.01.22.pdf
+│       │   │   │   │           Apple Icloud, 03.02.22.pdf
+│       │   │   │   │           Apple Icloud, 03.03.22.pdf
+│       │   │   │   │           Apple icloud, 03.05.22.pdf
+│       │   │   │   │           Apple Icloud, 03.06.22.pdf
+│       │   │   │   │           Apple Icloud, 03.11.22.pdf
+│       │   │   │   │           Apple Icloud, 03.12.22.pdf
+│       │   │   │   │           Apple icloud, 04.04.22.pdf
+│       │   │   │   │           Apple Icloud, 08.09.22.pdf
+│       │   │   │   │           Apple Icloud, 12.08.22.pdf
+│       │   │   │   │
+│       │   │   │   ├───Fortbildungen 2022
+│       │   │   │   │       Hotel Pichlmayrgut, 09.09.22.pdf
+│       │   │   │   │       Inspirationday Fortbildung, 06.10.22.pdf
+│       │   │   │   │       Kallerhof Fortbildung Marcel Hütter, 22.05.22.pdf
+│       │   │   │   │       Karrierejournal, 16.01.22.pdf
+│       │   │   │   │       Krallerhof Fortbildung, 22.05.22.pdf
+│       │   │   │   │       Marketingkurs Fortbildung, 24.06.22.pdf
+│       │   │   │   │       Seminar pauschale Fortbildung, 30.04.22.pdf
+│       │   │   │   │
+│       │   │   │   ├───Kunden rechnungen 2022
+│       │   │   │   │   ├───Kunden geschenke 2022
+│       │   │   │   │   │       Kunden gschenk, 23.05.23.pdf
+│       │   │   │   │   │
+│       │   │   │   │   └───Kundenessen 2022
+│       │   │   │   │           Geschäftsessen, 03.05.22.pdf
+│       │   │   │   │           Kundenessen, 03.08.22.pdf
+│       │   │   │   │           Kundentermin, 15.07.22.pdf
+│       │   │   │   │
+│       │   │   │   ├───Postsendung 2022
+│       │   │   │   │       Postsendung, 03.05.22.pdf
+│       │   │   │   │
+│       │   │   │   ├───sonstige Rechnungen 2022
+│       │   │   │   │   │   Zugticket, 08.09.22.pdf
+│       │   │   │   │   │
+│       │   │   │   │   └───WKO 2022
+│       │   │   │   │           WKO  Grundumlage, 14.05.22.pdf
+│       │   │   │   │           WKO JW Fest, 14.07.22.pdf
+│       │   │   │   │           WKO, 02.02.22 .pdf
+│       │   │   │   │
+│       │   │   │   └───Steuerberater 2022
+│       │   │   │           Steuerberater Honorarnote 14.06.22.pdf
+│       │   │   │           Steuerberatung Honorarnote 15.03.22.pdf
+│       │   │   │
+│       │   │   ├───Steuerausgleich 2023
+│       │   │   │   │   Abmeldebestätigung Opel Zafira .pdf
+│       │   │   │   │   Jahresabschluss 2023.pdf
+│       │   │   │   │
+│       │   │   │   ├───Büro 2023
+│       │   │   │   │   ├───ASAK Internet 2023
+│       │   │   │   │   │       ASAK, 01.02.2023.PDF
+│       │   │   │   │   │       ASAK, 01.03.2023.PDF
+│       │   │   │   │   │       ASAK, 01.06.2023.PDF
+│       │   │   │   │   │       ASAK, 02.01.2023.pdf
+│       │   │   │   │   │       ASAK, 02.11.23.PDF
+│       │   │   │   │   │       ASAK, 03.04.23.PDF
+│       │   │   │   │   │       ASAK, 03.07.23.PDF
+│       │   │   │   │   │       ASAK, 24.03.23.pdf
+│       │   │   │   │   │       ASAK; 02.05.23.PDF
+│       │   │   │   │   │
+│       │   │   │   │   └───Sonstige Büroartikel 2023
+│       │   │   │   │           Pagro, 06.03.2023.pdf
+│       │   │   │   │           Post, 19.04.2023.pdf
+│       │   │   │   │
+│       │   │   │   ├───Firmenauto 2023
+│       │   │   │   │   ├───Autoreparatur 2023
+│       │   │   │   │   │       B1 Autoshop, 31.03.23.pdf
+│       │   │   │   │   │
+│       │   │   │   │   ├───Firmenauto sonstige Rechnungen 2023
+│       │   │   │   │   │       Abmeldebestätigung Opel Zafira .pdf
+│       │   │   │   │   │       Alleinvermittlungsauftrag Ben Sperlhofer.pdf
+│       │   │   │   │   │       Kauvertrag Opel Zafira Verkauf .pdf
+│       │   │   │   │   │       Kauvertrag Opel Zafira Verkauf 2023.pdf
+│       │   │   │   │   │
+│       │   │   │   │   └───Tankrechnungen 2023
+│       │   │   │   │           Ams .pdf
+│       │   │   │   │           Lohnabrechnung_2023-08_63359.pdf
+│       │   │   │   │           Tanken 2, 23.01.2023.pdf
+│       │   │   │   │           Tanken, 03.02.2023.pdf
+│       │   │   │   │           Tanken, 06.02.2023.pdf
+│       │   │   │   │           Tanken, 06.03.2023.pdf
+│       │   │   │   │           Tanken, 07.01.2023.pdf
+│       │   │   │   │           Tanken, 09.02.2023.pdf
+│       │   │   │   │           Tanken, 12.01.2023.pdf
+│       │   │   │   │           Tanken, 18.01.2023.pdf
+│       │   │   │   │           Tanken, 20.02.2023.pdf
+│       │   │   │   │           Tanken, 23.01.2023.pdf
+│       │   │   │   │           Tanken, 29.01.2023.pdf
+│       │   │   │   │           Tanken, 31.01.2023.pdf
+│       │   │   │   │
+│       │   │   │   ├───Firmenhandy 2023
+│       │   │   │   │   ├───A1 Mobiltelefon 2023
+│       │   │   │   │   │       A1 Mobiltelefon 25.05.23.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 20.01.2023.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 22.02.2023.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 24.03.2023.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 25.04.23.pdf
+│       │   │   │   │   │       A1 Mobiltelefon, 26.06.23.pdf
+│       │   │   │   │   │
+│       │   │   │   │   └───Apple iCloud 2023
+│       │   │   │   │           Apple Icloud 01.06.2023.pdf
+│       │   │   │   │           Apple Icloud, 01.01.2023.pdf
+│       │   │   │   │           Apple Icloud, 01.03.2023.pdf
+│       │   │   │   │           Apple Icloud, 01.04.2023.pdf
+│       │   │   │   │           Apple Icloud, 02.02.2023.pdf
+│       │   │   │   │           Apple Icloud, 02.05.23.pdf
+│       │   │   │   │           Apple Icloud, 03.07.23.pdf
+│       │   │   │   │
+│       │   │   │   ├───Fortbildungen 2023
+│       │   │   │   ├───Kundenrechnungen 2023
+│       │   │   │   │   ├───Kundenessen 2023
+│       │   │   │   │   │       Kundenessen, 03.03.2023.pdf
+│       │   │   │   │   │       Kundenessen, 06.01.2023.pdf
+│       │   │   │   │   │
+│       │   │   │   │   └───Kundengeschenke 2023
+│       │   │   │   │           Kundengeschenk, 04.03.2033.pdf
+│       │   │   │   │           Kundengeschenk, 31.03.2023.pdf
+│       │   │   │   │
+│       │   │   │   ├───sonstige Rechnungen 2023
+│       │   │   │   │       Apotheke, 02.03.2023.pdf
+│       │   │   │   │       Apotheke, 26.01.2023.pdf
+│       │   │   │   │       Dr Andonov, 29.08.23.pdf
+│       │   │   │   │       Einkommenssteuerbescheid 2023.pdf
+│       │   │   │   │       MacBook Air, 18.03.23.pdf
+│       │   │   │   │       MacBook Kassenbon, 18.03.23.pdf
+│       │   │   │   │       Mundhygiene, 24.03.23.pdf
+│       │   │   │   │       Parken, 17.03.23 .pdf
+│       │   │   │   │       Rechnung Maurice Rychter Hirschgasse 7.pdf
+│       │   │   │   │       Rechnung Visitenkarten Marcel Christopher Hütter.pdf
+│       │   │   │   │       Sachverhaltsdarstellung Unfall Pritsche Kopie.pdf
+│       │   │   │   │
+│       │   │   │   └───Steuern 2023
+│       │   │   ├───Steuerausgleich 2024
+│       │   │   │       AR_30106_R24-0038672.PDF
+│       │   │   │       AR_30106_R24-0079819.PDF
+│       │   │   │       Asak, 01.24.pdf
+│       │   │   │       Rechnung_356413773.1_11.2023.pdf
+│       │   │   │       Rechnung_356413773.1_12.2023.pdf
+│       │   │   │       Steuererklärungen 2024 Klient Marcel Hütter.pdf
+│       │   │   │       Unterschriftsblatt 2024.pdf
+│       │   │   │
+│       │   │   └───Steuerausgleich 2025
+│       │   │       └───MCH Vertrieb e.U. - 2025
+│       │   │           ├───Büro 2025
+│       │   │           │   ├───ASAK Internet 2025
+│       │   │           │   │       ASAK, 01.10.2025.PDF
+│       │   │           │   │
+│       │   │           │   └───Sonstige Büroartikel 2025
+│       │   │           │           Pagro, 06.03.2023.pdf
+│       │   │           │           Post, 19.04.2023.pdf
+│       │   │           │
+│       │   │           ├───Firmenauto 2025
+│       │   │           │   ├───Autoreparatur 2025
+│       │   │           │   ├───Firmenauto sonstige Rechnungen 2025
+│       │   │           │   └───Tankrechnungen 2025
+│       │   │           ├───Firmenhandy 2025
+│       │   │           │   ├───A1 Mobiltelefon 2025
+│       │   │           │   │       A1 Mobiltelefon 25.05.23.pdf
+│       │   │           │   │       A1 Mobiltelefon, 20.01.2023.pdf
+│       │   │           │   │       A1 Mobiltelefon, 22.02.2023.pdf
+│       │   │           │   │       A1 Mobiltelefon, 24.03.2023.pdf
+│       │   │           │   │       A1 Mobiltelefon, 25.04.23.pdf
+│       │   │           │   │       A1 Mobiltelefon, 26.06.23.pdf
+│       │   │           │   │
+│       │   │           │   └───Apple iCloud 2025
+│       │   │           │           Apple Icloud 01.06.2023.pdf
+│       │   │           │           Apple Icloud, 01.01.2023.pdf
+│       │   │           │           Apple Icloud, 01.03.2023.pdf
+│       │   │           │           Apple Icloud, 01.04.2023.pdf
+│       │   │           │           Apple Icloud, 02.02.2023.pdf
+│       │   │           │           Apple Icloud, 02.05.23.pdf
+│       │   │           │           Apple Icloud, 03.07.23.pdf
+│       │   │           │
+│       │   │           ├───Fortbildungen 2025
+│       │   │           ├───sonstige Rechnungen 2025
+│       │   │           └───Steuern 2025
+│       │   └───SVS
+│       └───Unternehmensdaten
+│               Firmenbuch Antrag.pdf
+│               Fragebogen Marcel Hütter.pdf
+│               Gewerbeanmeldung Dateneingabe.pdf
+│               Gewerbegründung e.U. Notizen.pages
+│               Gewerbeinfomation Consulting.pages
+│               GISA-Auszug.pdf
+│
+├───Protectmesh GmbH
+│       Datenaufnahme BAD ISCHL WC.docx
+│       Kontaktliste Protectmesh GmbH.xlsx
+│       Vorlagentext für Mail Protectmesh GmbH.docx
+│
+└───Sicherheitssysteme Vöcklabruck GmbH
+    │   SYSS Angebote - Kontaktliste.xlsx
+    │
+    ├───Angebote
+    └───Angebote zum nachrufen
+            An-GM-10_2026.pdf
+            An-GM-11_2026.pdf
+            An-GM-12_2026.pdf

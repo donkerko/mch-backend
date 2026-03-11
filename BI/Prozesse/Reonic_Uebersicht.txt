@@ -1,0 +1,7 @@
+Hier erstellen wir Angebote
+
+Angebote gehören zu Kunden, Angebotsname ist Kundename, wir pflegen Kontaktdaten wie name, e-mail, telefonnummer, adresse
+
+Hier planen wir auch welche Produkte ins angebot kommen zb. PV-Anlage, Energiespeicher, Wärmepumpe, Wallbox, andere Zusatzleistungen
+
+Es gibt verschiedene Varianten der Produkte, die sich in kWp(eak) module bzw. kWh speicher unterscheiden
