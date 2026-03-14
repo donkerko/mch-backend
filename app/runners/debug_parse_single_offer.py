@@ -7,7 +7,7 @@ import pdfplumber
 # =========================================================
 
 PDF_PATH = Path(
-    r"C:\Users\PV\OneDrive\Sicherheitssysteme Vöcklabruck GmbH\Angebote\Verarbeitet\An-VB-162_2025.pdf"
+    r"C:\Users\PV\OneDrive\Sicherheitssysteme Vöcklabruck GmbH\Angebote\Eingang\An-GM-12_2026.pdf"
 )
 
 OUTPUT_DEBUG_FILE = Path(

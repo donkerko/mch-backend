@@ -45,6 +45,8 @@ class SicherheitssystemeOfferParser:
 
         angebot_nr = self._extract_angebot_nr(lines)
         angebotsdatum = self._extract_date(lines)
+        if angebotsdatum:
+            angebotsdatum = angebotsdatum.replace(".", "/")
         name, kontaktperson = self._extract_recipient_block(lines)
 
         print("ANGEBOTSNUMMER:", angebot_nr)
@@ -109,6 +111,52 @@ class SicherheitssystemeOfferParser:
 
         return ""
 
+    def _extract_gm_recipient_block(self, lines: list[str]) -> tuple[str, str]:
+        """
+        GM-Struktur ungefähr:
+        UID: ...
+        Kunden Info
+        Frau/Herr ... Nummer: 123456
+        optional Mobil:
+        optional Straße
+        optional E-Mail:
+        PLZ Ort
+        optional ÖSTERREICH
+        Angebot: ...
+        """
+
+        kunden_info_index = None
+        angebot_index = self._find_first_angebot_index(lines)
+
+        for i, line in enumerate(lines):
+            if line.strip().lower() == "kunden info":
+                kunden_info_index = i
+                break
+
+        if kunden_info_index is None:
+            return "", ""
+
+        end_index = angebot_index if angebot_index is not None else min(len(lines), kunden_info_index + 10)
+        window = lines[kunden_info_index + 1:end_index]
+
+        if not window:
+            return "", ""
+
+        # 1) Personenzeile suchen
+        person_line = ""
+        for line in window:
+            if self._looks_like_gm_person_line(line):
+                person_line = line
+                break
+
+        if not person_line:
+            return "", ""
+
+        cleaned_person = self._clean_gm_person_line(person_line)
+
+        # GM-Beispiele sind bisher privat
+        return cleaned_person, cleaned_person
+
     def _extract_recipient_block(self, lines: list[str]) -> tuple[str, str]:
         """
         Returns:
@@ -121,6 +169,12 @@ class SicherheitssystemeOfferParser:
             [PLZ Ort]
         - Interpretiere die relevanten Zeilen darüber
         """
+
+        gm_result = self._extract_gm_recipient_block(lines)
+        if gm_result != ("", ""):
+            return gm_result
+
+
         angebot_index = self._find_first_angebot_index(lines)
         header_lines = lines[:angebot_index] if angebot_index is not None else lines[:20]
 
@@ -196,15 +250,54 @@ class SicherheitssystemeOfferParser:
             if self._is_customer_uid_line(line):
                 continue
             candidates.append(line)
-
+        print(candidates) 
         return candidates
 
+    def _looks_like_gm_person_line(self, line: str) -> bool:
+        lower = line.lower().strip()
+
+        if lower.startswith((
+            "frau ",
+            "herr ",
+            "herrn ",
+            "frau u. herr ",
+            "frau und herr ",
+            "familie ",
+            "fam. ",
+        )):
+            return True
+
+        return False
+
     def _looks_like_street(self, line: str) -> bool:
-        street_tokens = [
-            "straße", "str.", "strasse", "weg", "gasse", "platz", "allee"
+        lower = line.lower().strip()
+
+        if "@" in line:
+            return False
+
+        blocked_prefixes = [
+            "uid:",
+            "datum:",
+            "gültig bis:",
+            "sachbearbeiter:",
+            "komm:",
+            "kundennummer:",
+            "angebot",
+            "richtangebot",
+            "tel.:",
         ]
-        lower = line.lower()
-        return any(token in lower for token in street_tokens)
+        if any(lower.startswith(prefix) for prefix in blocked_prefixes):
+            return False
+
+        # klassische Straßentypen
+        street_tokens = [
+            "straße", "str.", "strasse", "weg", "gasse", "platz", "allee", "adresse"
+        ]
+        if any(token in lower for token in street_tokens):
+            return True
+
+        # fallback: irgendeine plausible Adresszeile mit Zahl
+        return any(ch.isdigit() for ch in line)
 
     def _looks_like_postcode_city(self, line: str) -> bool:
         return bool(re.search(r"\b\d{4,5}\b", line))
@@ -218,16 +311,27 @@ class SicherheitssystemeOfferParser:
 
     def _is_sender_line(self, line: str) -> bool:
         sender_markers = [
+            # VB
             "Sicherheitssysteme Vöcklabruck GmbH",
             "Linzer Straße",
             "4840 Vöcklabruck",
-            "Österreich",
-            "Tel.:",
             "office.vb@",
+            "Tel.:+43 7672 25047",
+            "Tel.: +43 7672 25047",
+
+            # GM
+            "Sicherheitssysteme Gmunden GmbH",
+            "Anton von Satoristraße",
+            "4810 Gmunden",
+            "office.gm@",
+            "07612/666240",
+
+            # allgemein
+            "Österreich",
+            "ÖSTERREICH",
             "Firmenbuch:",
             "Raiffeisenbank",
             "Sparkasse",
-            "UID: ATU 53187402",  # bekannte UID vom Absender
         ]
         lower = line.lower()
         return any(marker.lower() in lower for marker in sender_markers)
@@ -252,11 +356,70 @@ class SicherheitssystemeOfferParser:
         # Beispiel: "Firma"
         return line.strip().lower() in {"firma"}
 
+    def _clean_gm_person_line(self, line: str) -> str:
+        line = line.strip()
+
+        # "Nummer: 202320" am Ende weg
+        line = re.sub(r"\s+Nummer:\s*\d+\s*$", "", line, flags=re.IGNORECASE)
+
+        # Anreden / Familienpräfixe weg
+        prefixes = [
+            "Frau und Herrn ",
+            "Frau und Herr ",
+            "Frau u. Herrn ",
+            "Frau u. Herr ",
+            "Frau/Herr ",
+            "Frau & Herr ",
+            "Familie ",
+            "Fam. ",
+            "Herrn ",
+            "Herr ",
+            "Frau ",
+            "Hr. ",
+            "Fr. ",
+            "Hr ",
+            "Fr ",
+        ]
+
+        changed = True
+        while changed:
+            changed = False
+
+            for prefix in sorted(prefixes, key=len, reverse=True):
+                if line.startswith(prefix):
+                    line = line[len(prefix):].strip()
+                    changed = True
+
+            for title in ["Dr. ", "Mag. ", "Ing. "]:
+                if line.startswith(title):
+                    line = line[len(title):].strip()
+                    changed = True
+
+        return line.strip()
+
     def _clean_person_name(self, line: str) -> str:
         line = line.strip()
 
         # Anreden entfernen
-        for prefix in ["Herr ", "Herrn ", "Frau "]:
+        prefixes = [
+            "Herr ", 
+            "Herrn ", 
+            "Frau ", 
+            "Frau und Herr ", 
+            "Frau u. Herr ", 
+            "Frau/Herr ", 
+            "Frau & Herr ", 
+            "Hr. ", 
+            "Fr. ", 
+            "Hr ", 
+            "Fr ", 
+            "Fam. ", 
+            "Familie ", 
+            "Frau und Herrn ", 
+            "Frau u. Herrn "
+        ]
+
+        for prefix in sorted(prefixes, key=len, reverse=True):
             if line.startswith(prefix):
                 line = line[len(prefix):].strip()
 

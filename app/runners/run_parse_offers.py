@@ -4,9 +4,9 @@ from app.core.logging_service import LoggerService
 from app.domain.services.offer_parsing_service import OfferParsingService
 
 
-TEST_MODE = True
+TEST_MODE = False
 TEST_MAX_FILES = 1
-TEST_FILENAMES: list[str] | None = ["An-VB-169_2025.pdf"]
+TEST_FILENAMES: list[str] | None = None
 # Beispiel:
 # TEST_FILENAMES = ["An-VB-100_2025.pdf"]
 

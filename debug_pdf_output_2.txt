@@ -1,419 +1,335 @@
 ================================================================================
 RAW TEXT
 ================================================================================
-Sicherheitssysteme Vöcklabruck GmbH
-Linzer Straße 10
-4840 Vöcklabruck, Österreich
-Tel.:+43 7672 25047
-office.vb@sisys.at
-Schmid Hochbau GmbH
-UID: ATU 53187402
-Herr Robert Huber
-Frein 9
-4873 Frankenburg am Hausruck
-Angebot: An-VB-162/2025
-Datum: 25.05.2025
-gültig bis: 31.07.2025
-Sachbearbeiter: Georg Maringer
-r.huber@schmid-baugruppe.at
-Kundennummer: 220756
+Sicherheitssysteme Gmunden GmbH
+Anton von Satoristraße 3
+4810 Gmunden
+Tel.: 07612/666240
+office.gm@sisys.at
+UID: ATU 21979802
+Kunden Info
+Frau Ingrid Wick Nummer: 202320
+Mobil: +436643517686
+Franz-Stelzhamerstraße 4
+E-Mail: i.wick@gmx.at
+4810 GMUNDEN
+ÖSTERREICH
+Angebot: An-GM-12/2026
+Datum: 12.02.2026
+gültig bis: 31.03.2026
+Ihr Sachbearbeiter: Georg Maringer
+Kundennummer: 202320
 Angebot
-Richtangebot An-VB-162/2025
-Sehr geehrter Herr Huber;
-wir danken für Ihre Anfrage und bieten, auf Grundlage der uns vorliegenden Angaben und Unterlagen,
-gerne wie folgt an:
-Mechatronische Schließanlage bestehend aus elektronischem Zutrittssystem "Salto" und mechanischer
-Schließanlage für das Bauvorhaben "Tirolerhof in Kitzbühel".
-- Zutritt mittels Medien (Chip, Karte, Schlüsselanhänger, ...) und Mobiltelefon
-- Einbindung in smart-home Umgebung wie beispielsweise LoXone
-- Administration aus der Ferne "remote" möglich
+Angebot An-GM-12/2026
+Sehr geehrte Frau Wick;
+wir danken für Ihre Anfrage und bieten gerne wie folgt an:
+elektronisches ZutrittsystemTECTIQ
 Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
-1. Zutrittsystem
-1.1 Glas-Wandleser schwarz Mifare 4,00 Stk. 508,35 € 2.033,40
-- für Zutrittspunkt Online
-- modernes Design mit intuitiver LED-Signalisierung
-- Maße (B/H/T): 95,5mm x 95,5mm x 29,5mm
-- NFC-kompatibel
-- Kommunikation zwischen Wandleser und Identträger findet verschlüsselt statt und ist gesichert
-- optische Signalisierung durch LED (grün/rot) zur Signalisierung des Zutritts oder der Ablehnung
-- zusätzlich akustische Signalisierung
-Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
-Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
-Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
+1.
+1 Zutrittskontrollzentrale 1,00 Stk. 1.383,00 1.383,00 €
+- Desktop-Software Manager mit intuitiver Benutzeroberfläche zur Speicherung aller Daten
+- unabhängig von der Serverarchitektur einfach in das Netzwerk zu integrieren
+- lokaler Betrieb oder mit Internetverbindung (optional)
+- PC-Zugriff via TECTIQ Access Manager für bis zu 5 Administratoren
+- Fernzugriff (Internetverbindung) auf das gesamte System zur standortunabhängigen Administration
+- Integration von bis zu 100 update Terminals zur Validierung & Aktualisierung genutzter Schließmedien
+- wahlweise: Transponder, Karte oder Schlüsselanhänger auch standortübergreifend
+- sichere Peer-to-Peer-Verbindung
+- jederzeit einfach skalieren und nachträglich erweitern
+- beliebiges Hinzufügen von elektronischen Tür- und Systemkomponenten
+- objektspezifische Lösungen via TECTIQ Access Manager flexibel und bedarfsgerecht realisieren
+- die Türkomponenten einfach mit der Parameterkarte programmieren
+- Einfacher Anschluss an die Infrastruktu
+- Spannungsversorgung 12 V DC &
+- Ethernet RJ45 10/100 Mbit/s
+- inkl. Steckernetzteil
+Firmenbuch: FN 105602 y - Landesgericht Wels - Gerichtsstand Gmunden
+Volksbank Gmunden - IBAN: AT04 4480 0223 2189 0000 - BIC VBWEAT2WXXX
+Raiffeisenbank Gmunden - IBAN: AT09 3451 0000 0956 1077 - BIC RZOOAT2L510
+Sicherheitssysteme Gmunden GmbH
+Anton von Satoristraße 3
+4810 Gmunden
+Tel.: 07612/666240
+office.gm@sisys.at
+UID: ATU 21979802
 Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
-1. Zutrittsystem
-1.2 Online-Steuerung 4,00 Stk. 1.038,50 € 4.154,00
-- für Zutrittspunkt Online
-- Zutrittskontrolländerungen in Echtzeit
-- Realtime-Monitoring der Benutzerzutritte und -austritte durch Steuerung
-- Realtime-Ereignislistenerstellung in Software
-- Türstatus-Monitoring bei erzwungenen Zutritten und Tür-Offen-Alarm
-- Remote-Türöffnung durch Software
-- Türentriegelung oder Türnotöffnungskonfiguration durch Software
-- IP-Steuerung kann in bestehende Konfiguration der Anwesenheitskontrolle inkludiert werden
-- beispielsweise zur Benutzerlokalisierung und Parkplatzkontrolle
-- Online-Hub für bis zu 40 Online-Energiesparschalter
-- verbunden mit Standard-Ethernet/WiFi-Netz
-- Offline-Betrieb bei Netzwerkausfall
-- sämtliche Kommunikation zwischen der IP-Steuerung und dem PC ist gesichert und verschlüsselt
-- zur höheren Sicherheit, zusätzlicher Schutz durch eine 3DES-Challenge/Reponse-Verschlüsselung
-- annulliert gelöschte Karte
-1.3 Online Erweiterungssteuerung 7,00 Stk. 519,25 € 3.634,75
-- für Gateway
-- 2 Wandleseranschlüsse
-- kann einzeln als Offline-Steuerung oder als Online-Steuerung bei Anschluss an CU42E verwendet werden
-- inkl. 12V Netzteil
-1.4 Netzteil 12V/3A 3,00 Stk. 99,50 € 298,50
-Gehäuse 330x355x80mm
-1.5 Netzteil 12V/4A 4,00 Stk. 350,00 € 1.400,00
-Gehäuse 410x390x90mm
-1.6 Akku 7Ah 12V 11,00 Stk. 53,00 € 583,00
-1.7 XS4 One BLE Elektronikbeschlag 24,00 Stk. 628,60 € 15.086,40
-- für Zutrittspunkt Offline Standardtüre
-- RFID Mifare/Desfire Technologie (kontaktlos)
-- Maße: 285,0 x 42,0 x 19,5 mm (H/B/T)
-- Edelstahl matt
-- NFC-kompatibel
-- Kommunikation mit Identmedien erfolgt verschlüsselt
-- optische Signalisierung (grün/rot) über LED-Ring
-- Beschlagskörper und -abdeckung aus rostfreiem Stahl
-- optional mit Lochung für mechanische Öffnung
-- elektronische "Bitte nicht stören"-Funktion erhältlich
-- von Innen kann die Tür immer geöffnet werden (Antipanikfunktion)
-- in Verbindung mit entsprechendem Einsteckschloss gemäß EN 179/1125)
-1.8 XS4 One BLE Elektronik-Halbbeschlag 2,00 Stk. 550,65 € 1.101,30
-- für Zutrittspunkt Offline Fluchttüre
-- inkl. Panikstangenkit für bauseitige Panikstange EN1125
-- Leistungsbeschreibung wie für Standardtüre
-1.9 Optional - Beschlag in Ausführung 24,00 Stk. 36,77 € 882,48
-Brandschutz
-1.10 Optional - Beschlag in Ausführung 24,00 Stk. 26,43 € 634,32
-Witterungsschutz IP55
-Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
-Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
-Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
+1.
+2 Systemkarten-Set 1,00 Stk. 203,00 203,00 €
+- Systemkarte zum sicheren Datentransfer zwischen Access Manager und den Türkomponenten
+- Data-on-Card: Parametriert die Türkomponente mit Informationen
+- zum Aktualisieren von Datum/Uhrzeit
+- zum Übertrag der Programmierung nach einer Änderung
+- MIFARE® DESFire® Kartenstruktur
+- ermöglicht eine komfortable, sichere, kontaktlose und auslesegeschützte Datenübertragung
+- Smart Card im Scheckkartenformat für Brieftasche, Kartenhalter usw.
+- fortlaufend nummeriert
+3 Tischleser USB 1,00 Stk. 414,00 414,00 €
+- Lesegerät zum zentralen Einlernen
+- beschreiben und Aktualisieren von Schließmedien direkt am PC
+- kompaktes Design, platzsparend und flexibel am Schreibtisch, Empfang oder an der Pforte einsetzbar
+- kompatibel zu allen Schließ- und Systemmedien (Transponder, Karte, Pro Cap) MIFARE DESFire EV1, EV2, EV3
+- verschlüsselte Verbindung vom Tischleser zur Zutrittskontrollzentrale
+- optische und akustische Signalisierung mittels farbiger LED
+- Quittierton zur Bestätigung des erfolgreichen Schreib-/Lesevorgangs
+- RFID-Lese-/Schreibvorgang berührungslos und schnell
+4 Emergency Transponder 1,00 Stk. 51,00 51,00 €
+- Systemtransponder zur Notöffnung aller Türen im Zutrittskontrollsystem
+- mit Sonderfunktion "Dauerhaft geöffnet"
+- die Notöffnung erfolgt unabhängig von Systemzustand oder Zeitplan
+- gewährt Rettungskräften (z. B. Feuerwehr) den Sofort-Zutritt an allen Ein- und Zugängen des Systems
+- ist geeignet für Feuerwehrschlüssel-Rohrtresore und -schlüsseldepots (FSD) nach DIN 14675 Typ 1-3
+- komfortable, sichere, kontaktlose und auslesegeschützte Datenübertragung durch MIFARE DESFire
+- Smart Card im Scheckkartenformat für Brieftasche, Kartenhalter usw.
+- fortlaufend nummeriert
+5 Transponder Advanced schwarz 10,00 Stk. 25,00 250,00 €
+- attraktiver RFID-Schlüsselanhänger mit Befestigungsbügel aus Edelstahl (MIFARE® DESFire® EV3 8K)
+- kontaktloses Öffnen aller Türkomponenten (Zylinder, Beschläge, Wandleser usw.)
+- gleichzeitig einsetzbar für weitere Anwendungen, z. B. Kopierer, Kantinenabrechnung und Zeiterfassung
+- höchster Kopier- und Manipulationsschutz durch integrierte, anlagenspezifische Sicherheitsapplikation
+- robuste Beschaffenheit für einen langlebigen Einsatz am Schlüsselbund (gegen Staub, Schmutz, Feuchtigkeit)
+- dank Seriennummer auf der Rückseite einfache Zuordnung von Transponder zu Person
+- Passiv-Transponder ohne Batterie
+6 elektronischer Doppel-Knaufzylinder 1,00 Stk. 870,00 870,00 €
+- für den Wohnungseingang
+- elektronischer Halbzylinder zur sicheren, zugleich einfachen, flexiblen Installation
+- hochwertig verarbeiteter Halbzylinder mit Edelstahl-Außenknauf und durchgängiger Edelstahloptik
+- dezent-puristische Designlinie; sehr witterungsbeständig in der Standard-Ausführung (IP67)
+- Zlinder mit RFID-Leser zum sicheren, auslesegeschützten Datenaustausch mit Schließmedien
+- mit freilaufendem Außenknauf: kein Zutritt ohne Authentifizierung
+- der Zylinder kann via Bluetooth mit der Admin App programmiert werden
+- der Zylinder kann die aktuelle Uhrzeit oder das neueste Firmware-Update erhalten
+- formschönes Design in verschiedenen Gestaltungsvarianten dank unterschiedlicher Farben und Knäufe
+- individuelle Anpassung der Zylinderlänge von 30 bis 60 mm je Seite dank modularem Verlängerungskonzept
+- geprüfte, zertifizierte Qualität: EN 15684, SKG*** (Security-Bohrsch.), FZG, Brandschutz T30
+Firmenbuch: FN 105602 y - Landesgericht Wels - Gerichtsstand Gmunden
+Volksbank Gmunden - IBAN: AT04 4480 0223 2189 0000 - BIC VBWEAT2WXXX
+Raiffeisenbank Gmunden - IBAN: AT09 3451 0000 0956 1077 - BIC RZOOAT2L510
+Sicherheitssysteme Gmunden GmbH
+Anton von Satoristraße 3
+4810 Gmunden
+Tel.: 07612/666240
+office.gm@sisys.at
+UID: ATU 21979802
 Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
-1. Zutrittsystem
-1.11 Gateway BLUEnet Wireless PoE, schwarz 26,00 Stk. 331,95 € 8.630,70
-- für Zutrittspunkt Offline
-- bis zu 6 Nodes und 16 Beschläge mit BLUEnet Technologie
-- Ethernet-Verbindung zum PC via PoE
-- Steckernetzteil nicht im Lieferumfang
-- Wireless over BLE SALTO BLUEnet
-AES 128bits Verschlüsselung
-- Ethernet-Verbindung zum PC via PoE
-unterstützt PoE IEEE802.3af (12V power adapted optional)
-- Firmwareupdate über Internetverbindung möglich
-1.12 ProAccess Software Wireless 28,00 Stk. 103,95 € 2.910,60
-Option Blue Net
-Summe Zutrittsystem: € 39.832,65
-2. Zutrittsystem Equipment
-2.1 ProAccess Space Software Online 1,00 Stk. 1.306,00 € 1.306,00
-- Basis Zutrittsmanagement Funktionen
-- bis zu 4 000 000 Anwender und 64 000 Türen
-- Locker Management
-- Notschließung
-- Anti-Passback
-- Events
-- automatische Schlüsselzuweisung
-- Roll Call
-- beschränkte Belegungsdauer
-2.2 ProAccess Space Software Alarm-Events 1,00 Stk. 883,85 € 883,85
-Dieses Add-on erlaubt die Zuordnung von Aktionen zu bestimmten Ereignissen. Zu den Aktionen gehören E-
-Mail-Versand, Aktivierung/Deaktivierung der Notschließung und Aktivierung/Deaktivierung von
-Schaltausgängen. Funktion ist nur als separates Add-on erhältlich.
-Für die vorliegende Anwendung, Türbeschläge in smart-home (wie beispielsweise über LoXone) einzubinden.
-2.3 Programmiergerät PPD800 1,00 Stk. 654,40 € 654,40
-- Initialisierung der Schließeinheiten
-- Sammlung der Ereignislisten
-- Update der Schließeinheiten (Profile und interne Uhr)
-- Prüfung der Türen
-- Notöffnung
-- Firmware-Update
-2.4 NCoder Ethernet-Kodierstation 1,00 Stk. 727,90 € 727,90
-- kompaktes Gerät zum Lesen, Kodieren und Updaten von Identmedien
-- unterschiedliche Versionen, passend zur Verbindung mit dem PC (USB oder Ethernet)
-- einfache Schlüsselzuweisung durch anhalten des Identmediums am Leser des Kodiergeräts
-- ohne auf die Hilfe des Zutrittskontrollmanagers angewiesen zu sein
-Summe Zutrittsystem Equipment: € 3.572,15
-3. Schließanlage
-3.1 Doppelzylinder bis 100mm 28,00 Stk. 150,00 € 4.200,00
-- registrierte Haupt- und Gruppenschließanlage
-- gefederte Wirkungsweise
-- aktuelle Patentlaufzeit
-3.2 Anlagenschlüssel - ohne Berechnung 30,00 Stk. 0,00 € 0,00
-3 Stk. Schlüssel pro Top
-3.3 Optional - Anlagenschlüssel zusätzl. pro Stk 1,00 Stk. 41,40 € 41,40
-Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
-Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
-Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
-Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
-3. Schließanlage
-3.4 Sicherungskarte - ohne Berechnung 1,00 Stk. 0,00 € 0,00
-Summe Schließanlage: € 4.200,00
-4. Kennzeichenerkennung
-4.1 Kennzeichenerkennungskamera 1,00 Stk. 1.013,05 € 1.013,05
-- 4-Megapixel-DeepinView-ANPR-Moto-Varifokal-Kugelkamera
-- hHohe Bildqualität mit 4 MPx Auflösung
-- Darkfighter Technologie für hervorragende Leistung bei schlechten Lichtverhältnissen
-- 140 dB WDR-Funktion zum Ausgleich von Bildkontrasten
-Kennzeichenerkennung
-- effiziente H.265+ Komprimierungstechnologie zur Einsparung von Bandbreite und Speicherplatz
-- 5 Streams um eine Vielzahl von Anwendungen zu erfüllen
-- Wasser- und staubdicht (IP67) und vandalensicher (IK10)
-- ohne Montage - und Halterungsmaterial
-- ohne Lieferung, Montage, Inbetriebnahme und Einschulung
-Summe Kennzeichenerkennung: € 1.013,05
-5. Verrechnungsposition
-5.1 Arbeitszeit Sicherheitstechnik 6,00 Std. 125,00 € 750,00
-- Projektierung und Konzeption
-- ohne Präsenztermin vor Ort
-- Ohne Reisezeit und Fahrtkosten
-Summe Verrechnungsposition: € 750,00
-Netto: € 49.367,85
-20% USt.: € 9.873,57
-Brutto: € 59.241,42
-Zahlungsziel: 10 Tage netto Kasse
+1.
+7 elektronischer Halbzylinder 3,00 Stk. 517,00 1.551,00 €
+- für den Lift
+- elektronischer Halbzylinder zur sicheren, zugleich einfachen, flexiblen Installation
+- hochwertig verarbeiteter Halbzylinder mit Edelstahl-Außenknauf und durchgängiger Edelstahloptik
+- dezent-puristische Designlinie; sehr witterungsbeständig in der Standard-Ausführung (IP67)
+- Zlinder mit RFID-Leser zum sicheren, auslesegeschützten Datenaustausch mit Schließmedien
+- mit freilaufendem Außenknauf: kein Zutritt ohne Authentifizierung
+- der Zylinder kann via Bluetooth mit der Admin App programmiert werden
+- der Zylinder kann die aktuelle Uhrzeit oder das neueste Firmware-Update erhalten
+- formschönes Design in verschiedenen Gestaltungsvarianten dank unterschiedlicher Farben und Knäufe
+- individuelle Anpassung der Zylinderlänge von 30 bis 60 mm je Seite dank modularem Verlängerungskonzept
+- geprüfte, zertifizierte Qualität: EN 15684, SKG*** (Security-Bohrsch.), FZG, Brandschutz T30
+8 Werkzeugset 1,00 Stk. 45,00 45,00 €
+unter anderem zum Batteriewechsel
+Summe : 4.767,00 €
+9. Verrechnungsposition
+9.1 Beschaffungskosten Lieferant 1,00 Stk. 19,50 19,50 €
+Summe Verrechnungsposition: 19,50 €
+Netto: 4.786,50 €
+20% USt.: 957,30 €
+Brutto: 5.743,80 €
+Zahlungsziel: 10 Tage Netto Kassa
 Hinweis Zutritt:
-Es wird ausdrücklich darauf aufmerksam gemacht, dass das vertragsgegenständliche Zutrittssystem nach
-den gesetzlichen Bestimmungen, insbesondere des Datenschutzgesetzes melde- / genehmigungspflichtig
-sein kann. Wir als Anbieter übernehmen dementsprechend keinerlei Haftung und Gewähr für einen
+Es wird ausdrücklich darauf aufmerksam gemacht, dass das vertragsgegenständliche Zutrittskontrollsystem
+nach den gesetzlichen Bestimmungen, insbesondere des Datenschutzgesetzes melde- / genehmigungs-
+pflichtig sein kann. Wir als Anbieter übernehmen dementsprechend keinerlei Haftung und Gewähr für einen
 rechtskonformen Betrieb.
 Preise:
 Nettopreise excl. Mwst.; ohne Lieferung und Montage
-- Montagestunde Regie = € 97,50 ohne Mwst.; zzgl. km
-- Montagestunde Elektro = € 97,50 ohne Mwst.; zzgl. km
-- Technikerstunde Software = € 125,-- ohne Mwst.; zzgl. km
-- ohne Elektroinstallationsmaterial
-- ohne Mauer,- Stemm- und Verputzarbeiten
-- ohne Abnahme, Inbetriebnahme und Einschulung
-- ohne Dokumentation
-bauseitige Vorleistungen:
-- Verkabelung und Verrohrung lt. unseren Angaben
-- PC-Hardware und Netzwerk-Komponenten
+1 Montagestunde Mechanik = € 99,50 excl. Mwst. zzgl. km
+1 Montagestunde Elektrotechnik = € 99,50 excl. Mwst. zzgl. km
+1 Montagestunde Software / Sicherheitstechnik = € 135,-- excl. Mwst. zzgl. km
 Lieferzeit:
-Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
-Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
-Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
 nach Vereinbarung
 Eigentumsvorbehalt:
-Die Ware bleibt bis zur vollständigen Bezahlung Eigentum der Firma Sicherheitssysteme Vöcklabruck
-GmbH.
+Die Ware bleibt bis zur vollständigen Bezahlung Eigentum der Firma Sicherheitssysteme Gmunden GmbH.
 Wir sind überzeugt davon, ein für Sie passendes Angebot erstellt zu haben und würden uns freuen, Ihren
 geschätzten Auftrag zu erhalten. Mit der Zusicherung einer sauberen und termingerechten Ausführung
-dürfen wir uns empfehlen, mit freundlichen Grüßen - Sicherheitssysteme Vöcklabruck GmbH
+dürfen wir uns empfehlen, mit freundlichen Grüßen - Sicherheitssysteme Gmunden GmbH
 Wichtig:
 Im Falle Auftragserteilung bitte Angebotsnummer angeben!
-Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
-Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
-Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
+Firmenbuch: FN 105602 y - Landesgericht Wels - Gerichtsstand Gmunden
+Volksbank Gmunden - IBAN: AT04 4480 0223 2189 0000 - BIC VBWEAT2WXXX
+Raiffeisenbank Gmunden - IBAN: AT09 3451 0000 0956 1077 - BIC RZOOAT2L510
+Sicherheitssysteme Gmunden GmbH
+Anton von Satoristraße 3
+4810 Gmunden
+Tel.: 07612/666240
+office.gm@sisys.at
+UID: ATU 21979802
+Firmenbuch: FN 105602 y - Landesgericht Wels - Gerichtsstand Gmunden
+Volksbank Gmunden - IBAN: AT04 4480 0223 2189 0000 - BIC VBWEAT2WXXX
+Raiffeisenbank Gmunden - IBAN: AT09 3451 0000 0956 1077 - BIC RZOOAT2L510
 
 ================================================================================
 CLEAN LINES
 ================================================================================
-000: Sicherheitssysteme Vöcklabruck GmbH
-001: Linzer Straße 10
-002: 4840 Vöcklabruck, Österreich
-003: Tel.:+43 7672 25047
-004: office.vb@sisys.at
-005: Schmid Hochbau GmbH
-006: UID: ATU 53187402
-007: Herr Robert Huber
-008: Frein 9
-009: 4873 Frankenburg am Hausruck
-010: Angebot: An-VB-162/2025
-011: Datum: 25.05.2025
-012: gültig bis: 31.07.2025
-013: Sachbearbeiter: Georg Maringer
-014: r.huber@schmid-baugruppe.at
-015: Kundennummer: 220756
-016: Angebot
-017: Richtangebot An-VB-162/2025
-018: Sehr geehrter Herr Huber;
-019: wir danken für Ihre Anfrage und bieten, auf Grundlage der uns vorliegenden Angaben und Unterlagen,
-020: gerne wie folgt an:
-021: Mechatronische Schließanlage bestehend aus elektronischem Zutrittssystem "Salto" und mechanischer
-022: Schließanlage für das Bauvorhaben "Tirolerhof in Kitzbühel".
-023: - Zutritt mittels Medien (Chip, Karte, Schlüsselanhänger, ...) und Mobiltelefon
-024: - Einbindung in smart-home Umgebung wie beispielsweise LoXone
-025: - Administration aus der Ferne "remote" möglich
-026: Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
-027: 1. Zutrittsystem
-028: 1.1 Glas-Wandleser schwarz Mifare 4,00 Stk. 508,35 € 2.033,40
-029: - für Zutrittspunkt Online
-030: - modernes Design mit intuitiver LED-Signalisierung
-031: - Maße (B/H/T): 95,5mm x 95,5mm x 29,5mm
-032: - NFC-kompatibel
-033: - Kommunikation zwischen Wandleser und Identträger findet verschlüsselt statt und ist gesichert
-034: - optische Signalisierung durch LED (grün/rot) zur Signalisierung des Zutritts oder der Ablehnung
-035: - zusätzlich akustische Signalisierung
-036: Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
-037: Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
-038: Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
-039: Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
-040: 1. Zutrittsystem
-041: 1.2 Online-Steuerung 4,00 Stk. 1.038,50 € 4.154,00
-042: - für Zutrittspunkt Online
-043: - Zutrittskontrolländerungen in Echtzeit
-044: - Realtime-Monitoring der Benutzerzutritte und -austritte durch Steuerung
-045: - Realtime-Ereignislistenerstellung in Software
-046: - Türstatus-Monitoring bei erzwungenen Zutritten und Tür-Offen-Alarm
-047: - Remote-Türöffnung durch Software
-048: - Türentriegelung oder Türnotöffnungskonfiguration durch Software
-049: - IP-Steuerung kann in bestehende Konfiguration der Anwesenheitskontrolle inkludiert werden
-050: - beispielsweise zur Benutzerlokalisierung und Parkplatzkontrolle
-051: - Online-Hub für bis zu 40 Online-Energiesparschalter
-052: - verbunden mit Standard-Ethernet/WiFi-Netz
-053: - Offline-Betrieb bei Netzwerkausfall
-054: - sämtliche Kommunikation zwischen der IP-Steuerung und dem PC ist gesichert und verschlüsselt
-055: - zur höheren Sicherheit, zusätzlicher Schutz durch eine 3DES-Challenge/Reponse-Verschlüsselung
-056: - annulliert gelöschte Karte
-057: 1.3 Online Erweiterungssteuerung 7,00 Stk. 519,25 € 3.634,75
-058: - für Gateway
-059: - 2 Wandleseranschlüsse
-060: - kann einzeln als Offline-Steuerung oder als Online-Steuerung bei Anschluss an CU42E verwendet werden
-061: - inkl. 12V Netzteil
-062: 1.4 Netzteil 12V/3A 3,00 Stk. 99,50 € 298,50
-063: Gehäuse 330x355x80mm
-064: 1.5 Netzteil 12V/4A 4,00 Stk. 350,00 € 1.400,00
-065: Gehäuse 410x390x90mm
-066: 1.6 Akku 7Ah 12V 11,00 Stk. 53,00 € 583,00
-067: 1.7 XS4 One BLE Elektronikbeschlag 24,00 Stk. 628,60 € 15.086,40
-068: - für Zutrittspunkt Offline Standardtüre
-069: - RFID Mifare/Desfire Technologie (kontaktlos)
-070: - Maße: 285,0 x 42,0 x 19,5 mm (H/B/T)
-071: - Edelstahl matt
-072: - NFC-kompatibel
-073: - Kommunikation mit Identmedien erfolgt verschlüsselt
-074: - optische Signalisierung (grün/rot) über LED-Ring
-075: - Beschlagskörper und -abdeckung aus rostfreiem Stahl
-076: - optional mit Lochung für mechanische Öffnung
-077: - elektronische "Bitte nicht stören"-Funktion erhältlich
-078: - von Innen kann die Tür immer geöffnet werden (Antipanikfunktion)
-079: - in Verbindung mit entsprechendem Einsteckschloss gemäß EN 179/1125)
-080: 1.8 XS4 One BLE Elektronik-Halbbeschlag 2,00 Stk. 550,65 € 1.101,30
-081: - für Zutrittspunkt Offline Fluchttüre
-082: - inkl. Panikstangenkit für bauseitige Panikstange EN1125
-083: - Leistungsbeschreibung wie für Standardtüre
-084: 1.9 Optional - Beschlag in Ausführung 24,00 Stk. 36,77 € 882,48
-085: Brandschutz
-086: 1.10 Optional - Beschlag in Ausführung 24,00 Stk. 26,43 € 634,32
-087: Witterungsschutz IP55
-088: Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
-089: Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
-090: Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
-091: Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
-092: 1. Zutrittsystem
-093: 1.11 Gateway BLUEnet Wireless PoE, schwarz 26,00 Stk. 331,95 € 8.630,70
-094: - für Zutrittspunkt Offline
-095: - bis zu 6 Nodes und 16 Beschläge mit BLUEnet Technologie
-096: - Ethernet-Verbindung zum PC via PoE
-097: - Steckernetzteil nicht im Lieferumfang
-098: - Wireless over BLE SALTO BLUEnet
-099: AES 128bits Verschlüsselung
-100: - Ethernet-Verbindung zum PC via PoE
-101: unterstützt PoE IEEE802.3af (12V power adapted optional)
-102: - Firmwareupdate über Internetverbindung möglich
-103: 1.12 ProAccess Software Wireless 28,00 Stk. 103,95 € 2.910,60
-104: Option Blue Net
-105: Summe Zutrittsystem: € 39.832,65
-106: 2. Zutrittsystem Equipment
-107: 2.1 ProAccess Space Software Online 1,00 Stk. 1.306,00 € 1.306,00
-108: - Basis Zutrittsmanagement Funktionen
-109: - bis zu 4 000 000 Anwender und 64 000 Türen
-110: - Locker Management
-111: - Notschließung
-112: - Anti-Passback
-113: - Events
-114: - automatische Schlüsselzuweisung
-115: - Roll Call
-116: - beschränkte Belegungsdauer
-117: 2.2 ProAccess Space Software Alarm-Events 1,00 Stk. 883,85 € 883,85
-118: Dieses Add-on erlaubt die Zuordnung von Aktionen zu bestimmten Ereignissen. Zu den Aktionen gehören E-
-119: Mail-Versand, Aktivierung/Deaktivierung der Notschließung und Aktivierung/Deaktivierung von
-120: Schaltausgängen. Funktion ist nur als separates Add-on erhältlich.
-121: Für die vorliegende Anwendung, Türbeschläge in smart-home (wie beispielsweise über LoXone) einzubinden.
-122: 2.3 Programmiergerät PPD800 1,00 Stk. 654,40 € 654,40
-123: - Initialisierung der Schließeinheiten
-124: - Sammlung der Ereignislisten
-125: - Update der Schließeinheiten (Profile und interne Uhr)
-126: - Prüfung der Türen
-127: - Notöffnung
-128: - Firmware-Update
-129: 2.4 NCoder Ethernet-Kodierstation 1,00 Stk. 727,90 € 727,90
-130: - kompaktes Gerät zum Lesen, Kodieren und Updaten von Identmedien
-131: - unterschiedliche Versionen, passend zur Verbindung mit dem PC (USB oder Ethernet)
-132: - einfache Schlüsselzuweisung durch anhalten des Identmediums am Leser des Kodiergeräts
-133: - ohne auf die Hilfe des Zutrittskontrollmanagers angewiesen zu sein
-134: Summe Zutrittsystem Equipment: € 3.572,15
-135: 3. Schließanlage
-136: 3.1 Doppelzylinder bis 100mm 28,00 Stk. 150,00 € 4.200,00
-137: - registrierte Haupt- und Gruppenschließanlage
-138: - gefederte Wirkungsweise
-139: - aktuelle Patentlaufzeit
-140: 3.2 Anlagenschlüssel - ohne Berechnung 30,00 Stk. 0,00 € 0,00
-141: 3 Stk. Schlüssel pro Top
-142: 3.3 Optional - Anlagenschlüssel zusätzl. pro Stk 1,00 Stk. 41,40 € 41,40
-143: Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
-144: Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
-145: Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
-146: Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
-147: 3. Schließanlage
-148: 3.4 Sicherungskarte - ohne Berechnung 1,00 Stk. 0,00 € 0,00
-149: Summe Schließanlage: € 4.200,00
-150: 4. Kennzeichenerkennung
-151: 4.1 Kennzeichenerkennungskamera 1,00 Stk. 1.013,05 € 1.013,05
-152: - 4-Megapixel-DeepinView-ANPR-Moto-Varifokal-Kugelkamera
-153: - hHohe Bildqualität mit 4 MPx Auflösung
-154: - Darkfighter Technologie für hervorragende Leistung bei schlechten Lichtverhältnissen
-155: - 140 dB WDR-Funktion zum Ausgleich von Bildkontrasten
-156: Kennzeichenerkennung
-157: - effiziente H.265+ Komprimierungstechnologie zur Einsparung von Bandbreite und Speicherplatz
-158: - 5 Streams um eine Vielzahl von Anwendungen zu erfüllen
-159: - Wasser- und staubdicht (IP67) und vandalensicher (IK10)
-160: - ohne Montage - und Halterungsmaterial
-161: - ohne Lieferung, Montage, Inbetriebnahme und Einschulung
-162: Summe Kennzeichenerkennung: € 1.013,05
-163: 5. Verrechnungsposition
-164: 5.1 Arbeitszeit Sicherheitstechnik 6,00 Std. 125,00 € 750,00
-165: - Projektierung und Konzeption
-166: - ohne Präsenztermin vor Ort
-167: - Ohne Reisezeit und Fahrtkosten
-168: Summe Verrechnungsposition: € 750,00
-169: Netto: € 49.367,85
-170: 20% USt.: € 9.873,57
-171: Brutto: € 59.241,42
-172: Zahlungsziel: 10 Tage netto Kasse
-173: Hinweis Zutritt:
-174: Es wird ausdrücklich darauf aufmerksam gemacht, dass das vertragsgegenständliche Zutrittssystem nach
-175: den gesetzlichen Bestimmungen, insbesondere des Datenschutzgesetzes melde- / genehmigungspflichtig
-176: sein kann. Wir als Anbieter übernehmen dementsprechend keinerlei Haftung und Gewähr für einen
-177: rechtskonformen Betrieb.
-178: Preise:
-179: Nettopreise excl. Mwst.; ohne Lieferung und Montage
-180: - Montagestunde Regie = € 97,50 ohne Mwst.; zzgl. km
-181: - Montagestunde Elektro = € 97,50 ohne Mwst.; zzgl. km
-182: - Technikerstunde Software = € 125,-- ohne Mwst.; zzgl. km
-183: - ohne Elektroinstallationsmaterial
-184: - ohne Mauer,- Stemm- und Verputzarbeiten
-185: - ohne Abnahme, Inbetriebnahme und Einschulung
-186: - ohne Dokumentation
-187: bauseitige Vorleistungen:
-188: - Verkabelung und Verrohrung lt. unseren Angaben
-189: - PC-Hardware und Netzwerk-Komponenten
-190: Lieferzeit:
-191: Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
-192: Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
-193: Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
-194: nach Vereinbarung
-195: Eigentumsvorbehalt:
-196: Die Ware bleibt bis zur vollständigen Bezahlung Eigentum der Firma Sicherheitssysteme Vöcklabruck
-197: GmbH.
-198: Wir sind überzeugt davon, ein für Sie passendes Angebot erstellt zu haben und würden uns freuen, Ihren
-199: geschätzten Auftrag zu erhalten. Mit der Zusicherung einer sauberen und termingerechten Ausführung
-200: dürfen wir uns empfehlen, mit freundlichen Grüßen - Sicherheitssysteme Vöcklabruck GmbH
-201: Wichtig:
-202: Im Falle Auftragserteilung bitte Angebotsnummer angeben!
-203: Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
-204: Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
-205: Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
+000: Sicherheitssysteme Gmunden GmbH
+001: Anton von Satoristraße 3
+002: 4810 Gmunden
+003: Tel.: 07612/666240
+004: office.gm@sisys.at
+005: UID: ATU 21979802
+006: Kunden Info
+007: Frau Ingrid Wick Nummer: 202320
+008: Mobil: +436643517686
+009: Franz-Stelzhamerstraße 4
+010: E-Mail: i.wick@gmx.at
+011: 4810 GMUNDEN
+012: ÖSTERREICH
+013: Angebot: An-GM-12/2026
+014: Datum: 12.02.2026
+015: gültig bis: 31.03.2026
+016: Ihr Sachbearbeiter: Georg Maringer
+017: Kundennummer: 202320
+018: Angebot
+019: Angebot An-GM-12/2026
+020: Sehr geehrte Frau Wick;
+021: wir danken für Ihre Anfrage und bieten gerne wie folgt an:
+022: elektronisches ZutrittsystemTECTIQ
+023: Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
+024: 1.
+025: 1 Zutrittskontrollzentrale 1,00 Stk. 1.383,00 1.383,00 €
+026: - Desktop-Software Manager mit intuitiver Benutzeroberfläche zur Speicherung aller Daten
+027: - unabhängig von der Serverarchitektur einfach in das Netzwerk zu integrieren
+028: - lokaler Betrieb oder mit Internetverbindung (optional)
+029: - PC-Zugriff via TECTIQ Access Manager für bis zu 5 Administratoren
+030: - Fernzugriff (Internetverbindung) auf das gesamte System zur standortunabhängigen Administration
+031: - Integration von bis zu 100 update Terminals zur Validierung & Aktualisierung genutzter Schließmedien
+032: - wahlweise: Transponder, Karte oder Schlüsselanhänger auch standortübergreifend
+033: - sichere Peer-to-Peer-Verbindung
+034: - jederzeit einfach skalieren und nachträglich erweitern
+035: - beliebiges Hinzufügen von elektronischen Tür- und Systemkomponenten
+036: - objektspezifische Lösungen via TECTIQ Access Manager flexibel und bedarfsgerecht realisieren
+037: - die Türkomponenten einfach mit der Parameterkarte programmieren
+038: - Einfacher Anschluss an die Infrastruktu
+039: - Spannungsversorgung 12 V DC &
+040: - Ethernet RJ45 10/100 Mbit/s
+041: - inkl. Steckernetzteil
+042: Firmenbuch: FN 105602 y - Landesgericht Wels - Gerichtsstand Gmunden
+043: Volksbank Gmunden - IBAN: AT04 4480 0223 2189 0000 - BIC VBWEAT2WXXX
+044: Raiffeisenbank Gmunden - IBAN: AT09 3451 0000 0956 1077 - BIC RZOOAT2L510
+045: Sicherheitssysteme Gmunden GmbH
+046: Anton von Satoristraße 3
+047: 4810 Gmunden
+048: Tel.: 07612/666240
+049: office.gm@sisys.at
+050: UID: ATU 21979802
+051: Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
+052: 1.
+053: 2 Systemkarten-Set 1,00 Stk. 203,00 203,00 €
+054: - Systemkarte zum sicheren Datentransfer zwischen Access Manager und den Türkomponenten
+055: - Data-on-Card: Parametriert die Türkomponente mit Informationen
+056: - zum Aktualisieren von Datum/Uhrzeit
+057: - zum Übertrag der Programmierung nach einer Änderung
+058: - MIFARE® DESFire® Kartenstruktur
+059: - ermöglicht eine komfortable, sichere, kontaktlose und auslesegeschützte Datenübertragung
+060: - Smart Card im Scheckkartenformat für Brieftasche, Kartenhalter usw.
+061: - fortlaufend nummeriert
+062: 3 Tischleser USB 1,00 Stk. 414,00 414,00 €
+063: - Lesegerät zum zentralen Einlernen
+064: - beschreiben und Aktualisieren von Schließmedien direkt am PC
+065: - kompaktes Design, platzsparend und flexibel am Schreibtisch, Empfang oder an der Pforte einsetzbar
+066: - kompatibel zu allen Schließ- und Systemmedien (Transponder, Karte, Pro Cap) MIFARE DESFire EV1, EV2, EV3
+067: - verschlüsselte Verbindung vom Tischleser zur Zutrittskontrollzentrale
+068: - optische und akustische Signalisierung mittels farbiger LED
+069: - Quittierton zur Bestätigung des erfolgreichen Schreib-/Lesevorgangs
+070: - RFID-Lese-/Schreibvorgang berührungslos und schnell
+071: 4 Emergency Transponder 1,00 Stk. 51,00 51,00 €
+072: - Systemtransponder zur Notöffnung aller Türen im Zutrittskontrollsystem
+073: - mit Sonderfunktion "Dauerhaft geöffnet"
+074: - die Notöffnung erfolgt unabhängig von Systemzustand oder Zeitplan
+075: - gewährt Rettungskräften (z. B. Feuerwehr) den Sofort-Zutritt an allen Ein- und Zugängen des Systems
+076: - ist geeignet für Feuerwehrschlüssel-Rohrtresore und -schlüsseldepots (FSD) nach DIN 14675 Typ 1-3
+077: - komfortable, sichere, kontaktlose und auslesegeschützte Datenübertragung durch MIFARE DESFire
+078: - Smart Card im Scheckkartenformat für Brieftasche, Kartenhalter usw.
+079: - fortlaufend nummeriert
+080: 5 Transponder Advanced schwarz 10,00 Stk. 25,00 250,00 €
+081: - attraktiver RFID-Schlüsselanhänger mit Befestigungsbügel aus Edelstahl (MIFARE® DESFire® EV3 8K)
+082: - kontaktloses Öffnen aller Türkomponenten (Zylinder, Beschläge, Wandleser usw.)
+083: - gleichzeitig einsetzbar für weitere Anwendungen, z. B. Kopierer, Kantinenabrechnung und Zeiterfassung
+084: - höchster Kopier- und Manipulationsschutz durch integrierte, anlagenspezifische Sicherheitsapplikation
+085: - robuste Beschaffenheit für einen langlebigen Einsatz am Schlüsselbund (gegen Staub, Schmutz, Feuchtigkeit)
+086: - dank Seriennummer auf der Rückseite einfache Zuordnung von Transponder zu Person
+087: - Passiv-Transponder ohne Batterie
+088: 6 elektronischer Doppel-Knaufzylinder 1,00 Stk. 870,00 870,00 €
+089: - für den Wohnungseingang
+090: - elektronischer Halbzylinder zur sicheren, zugleich einfachen, flexiblen Installation
+091: - hochwertig verarbeiteter Halbzylinder mit Edelstahl-Außenknauf und durchgängiger Edelstahloptik
+092: - dezent-puristische Designlinie; sehr witterungsbeständig in der Standard-Ausführung (IP67)
+093: - Zlinder mit RFID-Leser zum sicheren, auslesegeschützten Datenaustausch mit Schließmedien
+094: - mit freilaufendem Außenknauf: kein Zutritt ohne Authentifizierung
+095: - der Zylinder kann via Bluetooth mit der Admin App programmiert werden
+096: - der Zylinder kann die aktuelle Uhrzeit oder das neueste Firmware-Update erhalten
+097: - formschönes Design in verschiedenen Gestaltungsvarianten dank unterschiedlicher Farben und Knäufe
+098: - individuelle Anpassung der Zylinderlänge von 30 bis 60 mm je Seite dank modularem Verlängerungskonzept
+099: - geprüfte, zertifizierte Qualität: EN 15684, SKG*** (Security-Bohrsch.), FZG, Brandschutz T30
+100: Firmenbuch: FN 105602 y - Landesgericht Wels - Gerichtsstand Gmunden
+101: Volksbank Gmunden - IBAN: AT04 4480 0223 2189 0000 - BIC VBWEAT2WXXX
+102: Raiffeisenbank Gmunden - IBAN: AT09 3451 0000 0956 1077 - BIC RZOOAT2L510
+103: Sicherheitssysteme Gmunden GmbH
+104: Anton von Satoristraße 3
+105: 4810 Gmunden
+106: Tel.: 07612/666240
+107: office.gm@sisys.at
+108: UID: ATU 21979802
+109: Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
+110: 1.
+111: 7 elektronischer Halbzylinder 3,00 Stk. 517,00 1.551,00 €
+112: - für den Lift
+113: - elektronischer Halbzylinder zur sicheren, zugleich einfachen, flexiblen Installation
+114: - hochwertig verarbeiteter Halbzylinder mit Edelstahl-Außenknauf und durchgängiger Edelstahloptik
+115: - dezent-puristische Designlinie; sehr witterungsbeständig in der Standard-Ausführung (IP67)
+116: - Zlinder mit RFID-Leser zum sicheren, auslesegeschützten Datenaustausch mit Schließmedien
+117: - mit freilaufendem Außenknauf: kein Zutritt ohne Authentifizierung
+118: - der Zylinder kann via Bluetooth mit der Admin App programmiert werden
+119: - der Zylinder kann die aktuelle Uhrzeit oder das neueste Firmware-Update erhalten
+120: - formschönes Design in verschiedenen Gestaltungsvarianten dank unterschiedlicher Farben und Knäufe
+121: - individuelle Anpassung der Zylinderlänge von 30 bis 60 mm je Seite dank modularem Verlängerungskonzept
+122: - geprüfte, zertifizierte Qualität: EN 15684, SKG*** (Security-Bohrsch.), FZG, Brandschutz T30
+123: 8 Werkzeugset 1,00 Stk. 45,00 45,00 €
+124: unter anderem zum Batteriewechsel
+125: Summe : 4.767,00 €
+126: 9. Verrechnungsposition
+127: 9.1 Beschaffungskosten Lieferant 1,00 Stk. 19,50 19,50 €
+128: Summe Verrechnungsposition: 19,50 €
+129: Netto: 4.786,50 €
+130: 20% USt.: 957,30 €
+131: Brutto: 5.743,80 €
+132: Zahlungsziel: 10 Tage Netto Kassa
+133: Hinweis Zutritt:
+134: Es wird ausdrücklich darauf aufmerksam gemacht, dass das vertragsgegenständliche Zutrittskontrollsystem
+135: nach den gesetzlichen Bestimmungen, insbesondere des Datenschutzgesetzes melde- / genehmigungs-
+136: pflichtig sein kann. Wir als Anbieter übernehmen dementsprechend keinerlei Haftung und Gewähr für einen
+137: rechtskonformen Betrieb.
+138: Preise:
+139: Nettopreise excl. Mwst.; ohne Lieferung und Montage
+140: 1 Montagestunde Mechanik = € 99,50 excl. Mwst. zzgl. km
+141: 1 Montagestunde Elektrotechnik = € 99,50 excl. Mwst. zzgl. km
+142: 1 Montagestunde Software / Sicherheitstechnik = € 135,-- excl. Mwst. zzgl. km
+143: Lieferzeit:
+144: nach Vereinbarung
+145: Eigentumsvorbehalt:
+146: Die Ware bleibt bis zur vollständigen Bezahlung Eigentum der Firma Sicherheitssysteme Gmunden GmbH.
+147: Wir sind überzeugt davon, ein für Sie passendes Angebot erstellt zu haben und würden uns freuen, Ihren
+148: geschätzten Auftrag zu erhalten. Mit der Zusicherung einer sauberen und termingerechten Ausführung
+149: dürfen wir uns empfehlen, mit freundlichen Grüßen - Sicherheitssysteme Gmunden GmbH
+150: Wichtig:
+151: Im Falle Auftragserteilung bitte Angebotsnummer angeben!
+152: Firmenbuch: FN 105602 y - Landesgericht Wels - Gerichtsstand Gmunden
+153: Volksbank Gmunden - IBAN: AT04 4480 0223 2189 0000 - BIC VBWEAT2WXXX
+154: Raiffeisenbank Gmunden - IBAN: AT09 3451 0000 0956 1077 - BIC RZOOAT2L510
+155: Sicherheitssysteme Gmunden GmbH
+156: Anton von Satoristraße 3
+157: 4810 Gmunden
+158: Tel.: 07612/666240
+159: office.gm@sisys.at
+160: UID: ATU 21979802
+161: Firmenbuch: FN 105602 y - Landesgericht Wels - Gerichtsstand Gmunden
+162: Volksbank Gmunden - IBAN: AT04 4480 0223 2189 0000 - BIC VBWEAT2WXXX
+163: Raiffeisenbank Gmunden - IBAN: AT09 3451 0000 0956 1077 - BIC RZOOAT2L510
