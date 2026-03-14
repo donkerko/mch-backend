@@ -15,12 +15,12 @@ class LoggerService:
         with open(log_file, "a", encoding="utf-8") as f:
             f.write(f"{timestamp} | {self.script_name} | {customer_name} | {action}\n")
 
-    def log_local(self, project_path: Path, action: str) -> None:
+    def log_local(self, local_log_dir: Path, action: str) -> None:
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        project_path = Path(project_path)
-        project_path.mkdir(parents=True, exist_ok=True)
+        local_log_dir = Path(local_log_dir)
+        local_log_dir.mkdir(parents=True, exist_ok=True)
 
-        log_file = project_path / "log.txt"
+        log_file = local_log_dir / "log.txt"
 
         with open(log_file, "a", encoding="utf-8") as f:
             f.write(f"{timestamp} | {self.script_name} | {action}\n")

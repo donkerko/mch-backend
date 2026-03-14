@@ -1,0 +1,195 @@
+================================================================================
+RAW TEXT
+================================================================================
+Sicherheitssysteme Vöcklabruck GmbH
+Linzer Straße 10
+4840 Vöcklabruck, Österreich
+Tel.:+43 7672 25047
+office.vb@sisys.at
+UID: ATU 53187402
+Herr Dr. Vorname Nachname
+Kundenadresse-Straße
+1234 KundenOrt
+Angebot: An-VB-100/2025
+Datum: 28.03.2025
+gültig bis: 30.04.2025
++4369914231242
+Kundennummer: 295017
+Angebot
+Angebot An-VB-100/2025
+An-VB-105/2025
+wir danken für Ihre Anfrage und bieten gerne wie folgt an;
+Zutrittsystem für Hausapotheke
+Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
+1. Zutrittskomponenten
+1.1 elektronischer Türbeschlag TEC-B-LA 1,00 Stk. 719,59 € 719,59
+- DM 50 / MA 88mm
+- PZ-Lochung beidseitig
+1.2 TecTiq Transponder blau 10,00 Stk. 16,50 € 165,00
+- Zutrittstransponder (Chip) blau
+- Mifare DesfFire EV1 4K
+1.3 Abdeckplatten Edelstahl 1,00 Stk. 72,30 € 72,30
+Breite = 55mm (für Rosettenabdeckung)
+1.4 Innentürschloss 121.PZ.E/R.50 1,00 Stk. 35,83 € 35,83
+- DM 50 / MA 88mm
+- Türe rechts innen
+- PZ mit Wechselfunktion
+1.5 OTS 2000 Alu natur 1,00 Stk. 247,00 € 247,00
+Obertürschließer für Innentüre inkl. Feststelleinheit
+Summe Zutrittskomponenten: € 1.239,72
+2. Verrechnungsposition
+2.1 Arbeitszeit Sicherheitstechnik inkl. Fahrzeit 4,00 Std. 125,00 € 500,00
+- Parametrierung und Inbetriebnahme durchführen(vorbereitend im Haus bei uns)
+- Komponenten liefern und montieren
+- Gängigkeit und Sperrbarkeit herstellen
+- Einschulung / Unterweisung durchführen
+2.2 Reiseaufwand 32,00 Km 1,00 € 32,00
+einmalige Anfahrt
+Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
+Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
+Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
+Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
+2. Verrechnungsposition
+2.3 support für externe Systemstellung p.a. 1,00 Pau. 125,00 € 125,00
+- Pauschale für externen Systemdienst zum laufenden Betrieb des Zutrittssystems
+- ohne Berechtigungs- und Zeitänderungen
+- pro laufendem Kalenderjahr
+2.4 Optional - Software und 1,00 Stk. 1.499,00 € 1.499,00
+Programmierkomponenten
+Alternativ für Pos. 2.2 zum selbständigen und dauerhaften Betrieb des Systems
+Summe Verrechnungsposition: € 657,00
+Netto: € 1.896,72
+20% USt.: € 379,34
+Brutto: € 2.276,06
+Zahlungsziel: 10 Tage netto Kasse
+Hinweis Zutritt/Video:
+Es wird ausdrücklich darauf aufmerksam gemacht, dass das vertragsgegenständliche Zutritts- bzw.
+Videosystem nach den gesetzlichen Bestimmungen, insbesondere des Datenschutzgesetzes melde- /
+genehmigungspflichtig sein kann. Wir als Anbieter übernehmen dementsprechend keinerlei Haftung und
+Gewähr für einen rechtskonformen Betrieb.
+Preise:
+Nettopreise excl. Mwst.; inkl. Lieferung und Montage
+Verrechnung Arbeitszeit nach tats. Aufwand.
+- ohne Elektroinstallationsmaterial
+- ohne Mauer,- Stemm- und Verputzarbeiten
+- ohne Abnahme, Inbetriebnahme und Einschulung
+- ohne Dokumentation
+bauseitige Vorleistungen:
+- Verkabelung und Verrohrung lt. unseren Angaben
+- PC-Hardware und Netzwerk-Komponenten
+Lieferzeit:
+nach Vereinbarung
+Gültigkeit:
+Das vorliegende Angebot besitzt 1 Monat Gültigkeit.
+Eigentumsvorbehalt:
+Die Ware bleibt bis zur vollständigen Bezahlung Eigentum der Firma Sicherheitssysteme Vöcklabruck
+GmbH.
+Wir sind überzeugt davon, ein für Sie passendes Angebot erstellt zu haben und würden uns freuen,Ihren
+geschätzten Auftrag zu erhalten. Mit der Zusicherung einer sauberen und termingerechten Ausführung
+dürfen wir uns empfehlen, mit freundlichen Grüßen - Sicherheitssysteme Vöcklabruck GmbH
+Wichtig:
+Im Falle Auftragserteilung bitte Angebotsnummer angeben!
+Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
+Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
+Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
+Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
+Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
+Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
+
+================================================================================
+CLEAN LINES
+================================================================================
+000: Sicherheitssysteme Vöcklabruck GmbH
+001: Linzer Straße 10
+002: 4840 Vöcklabruck, Österreich
+003: Tel.:+43 7672 25047
+004: office.vb@sisys.at
+005: UID: ATU 53187402
+006: Herr Dr. Vorname Nachname
+007: Kundenadresse-Straße
+008: 1234 KundenOrt
+009: Angebot: An-VB-100/2025
+010: Datum: 28.03.2025
+011: gültig bis: 30.04.2025
+012: +4369914231242
+013: Kundennummer: 295017
+014: Angebot
+015: Angebot An-VB-100/2025
+016: An-VB-105/2025
+017: wir danken für Ihre Anfrage und bieten gerne wie folgt an;
+018: Zutrittsystem für Hausapotheke
+019: Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
+020: 1. Zutrittskomponenten
+021: 1.1 elektronischer Türbeschlag TEC-B-LA 1,00 Stk. 719,59 € 719,59
+022: - DM 50 / MA 88mm
+023: - PZ-Lochung beidseitig
+024: 1.2 TecTiq Transponder blau 10,00 Stk. 16,50 € 165,00
+025: - Zutrittstransponder (Chip) blau
+026: - Mifare DesfFire EV1 4K
+027: 1.3 Abdeckplatten Edelstahl 1,00 Stk. 72,30 € 72,30
+028: Breite = 55mm (für Rosettenabdeckung)
+029: 1.4 Innentürschloss 121.PZ.E/R.50 1,00 Stk. 35,83 € 35,83
+030: - DM 50 / MA 88mm
+031: - Türe rechts innen
+032: - PZ mit Wechselfunktion
+033: 1.5 OTS 2000 Alu natur 1,00 Stk. 247,00 € 247,00
+034: Obertürschließer für Innentüre inkl. Feststelleinheit
+035: Summe Zutrittskomponenten: € 1.239,72
+036: 2. Verrechnungsposition
+037: 2.1 Arbeitszeit Sicherheitstechnik inkl. Fahrzeit 4,00 Std. 125,00 € 500,00
+038: - Parametrierung und Inbetriebnahme durchführen(vorbereitend im Haus bei uns)
+039: - Komponenten liefern und montieren
+040: - Gängigkeit und Sperrbarkeit herstellen
+041: - Einschulung / Unterweisung durchführen
+042: 2.2 Reiseaufwand 32,00 Km 1,00 € 32,00
+043: einmalige Anfahrt
+044: Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
+045: Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
+046: Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
+047: Pos. Bezeichnung Menge Einzelpreis Gesamtpreis
+048: 2. Verrechnungsposition
+049: 2.3 support für externe Systemstellung p.a. 1,00 Pau. 125,00 € 125,00
+050: - Pauschale für externen Systemdienst zum laufenden Betrieb des Zutrittssystems
+051: - ohne Berechtigungs- und Zeitänderungen
+052: - pro laufendem Kalenderjahr
+053: 2.4 Optional - Software und 1,00 Stk. 1.499,00 € 1.499,00
+054: Programmierkomponenten
+055: Alternativ für Pos. 2.2 zum selbständigen und dauerhaften Betrieb des Systems
+056: Summe Verrechnungsposition: € 657,00
+057: Netto: € 1.896,72
+058: 20% USt.: € 379,34
+059: Brutto: € 2.276,06
+060: Zahlungsziel: 10 Tage netto Kasse
+061: Hinweis Zutritt/Video:
+062: Es wird ausdrücklich darauf aufmerksam gemacht, dass das vertragsgegenständliche Zutritts- bzw.
+063: Videosystem nach den gesetzlichen Bestimmungen, insbesondere des Datenschutzgesetzes melde- /
+064: genehmigungspflichtig sein kann. Wir als Anbieter übernehmen dementsprechend keinerlei Haftung und
+065: Gewähr für einen rechtskonformen Betrieb.
+066: Preise:
+067: Nettopreise excl. Mwst.; inkl. Lieferung und Montage
+068: Verrechnung Arbeitszeit nach tats. Aufwand.
+069: - ohne Elektroinstallationsmaterial
+070: - ohne Mauer,- Stemm- und Verputzarbeiten
+071: - ohne Abnahme, Inbetriebnahme und Einschulung
+072: - ohne Dokumentation
+073: bauseitige Vorleistungen:
+074: - Verkabelung und Verrohrung lt. unseren Angaben
+075: - PC-Hardware und Netzwerk-Komponenten
+076: Lieferzeit:
+077: nach Vereinbarung
+078: Gültigkeit:
+079: Das vorliegende Angebot besitzt 1 Monat Gültigkeit.
+080: Eigentumsvorbehalt:
+081: Die Ware bleibt bis zur vollständigen Bezahlung Eigentum der Firma Sicherheitssysteme Vöcklabruck
+082: GmbH.
+083: Wir sind überzeugt davon, ein für Sie passendes Angebot erstellt zu haben und würden uns freuen,Ihren
+084: geschätzten Auftrag zu erhalten. Mit der Zusicherung einer sauberen und termingerechten Ausführung
+085: dürfen wir uns empfehlen, mit freundlichen Grüßen - Sicherheitssysteme Vöcklabruck GmbH
+086: Wichtig:
+087: Im Falle Auftragserteilung bitte Angebotsnummer angeben!
+088: Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
+089: Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
+090: Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
+091: Firmenbuch: FN 217202 S - Landesgericht Wels - Gerichtsstand Vöcklabruck
+092: Raiffeisenbank Gampern reg. Gen.m.b.H - IBAN: AT61 3411 3000 0001 5677 - BIC: RZOOAT2L113
+093: Sparkasse Frankenmarkt - IBAN: AT65 2030 6000 0002 1881 - BIC: SPFRAT21
