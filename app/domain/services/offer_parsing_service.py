@@ -1,5 +1,7 @@
 import shutil
 from pathlib import Path
+from pathlib import PurePosixPath
+from urllib.parse import quote
 
 from app.config.process_profile import ProcessProfile
 from app.core.logging_service import LoggerService
@@ -46,6 +48,18 @@ class OfferParsingService:
         target_path = self._get_unique_path(target_dir / source_path.name)
         shutil.move(str(source_path), str(target_path))
         return target_path
+
+    def build_mac_file_url(self, filename: str) -> str:
+        mac_base = PurePosixPath(
+            "/Users/mch/Library/CloudStorage/OneDrive-Persönlich/"
+            "Sicherheitssysteme Vöcklabruck GmbH/Angebote/Verarbeitet"
+        )
+        mac_path = mac_base / filename
+
+        # Wichtig: safe="/"
+        print("file://" + quote(str(mac_path), safe="/"))
+        return str(mac_path)
+
 
     def process_all(
         self,
@@ -124,7 +138,11 @@ class OfferParsingService:
                         continue
 
                     processed_path = self._move_file(pdf_path, self.profile.processed_dir)
-                    offer.angebot_pfad = str(processed_path)
+                    print(processed_path)
+                    print(str(processed_path))
+                    offer.angebot_pfad_windows = str(processed_path)
+                    offer.angebot_pfad_mac = self.build_mac_file_url(processed_path.name)
+                    print(offer.angebot_pfad_mac)
 
                     self.repository.append_offer(offer)
                     existing_offer_numbers.add(offer.angebot_nr.strip().lower())

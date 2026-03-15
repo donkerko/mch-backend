@@ -1,6 +1,7 @@
 from pathlib import Path
 from openpyxl import load_workbook
 from openpyxl.styles import Font
+from openpyxl.worksheet.hyperlink import Hyperlink
 
 from app.domain.models.offer import Offer
 
@@ -38,14 +39,15 @@ class OfferTrackingRepository:
     def append_offer(self, offer: Offer) -> None:
         wb, ws = self._get_ws()
         headers = [cell.value for cell in ws[1]]
-
+        print(offer.angebot_pfad_mac)
         row_map = {
             "Name": offer.name,
             "Angebotsdatum": offer.angebotsdatum,
             "angerufen am": offer.angerufen_am,
             "Kontaktperson": offer.kontaktperson,
             "AN.-Nr.:": offer.angebot_nr,
-            "Angebot": offer.angebot_pfad,
+            "Angebot MAC": offer.angebot_pfad_mac,
+            "Angebot Windows": offer.angebot_pfad_windows,
             "Bemerkung": offer.bemerkung,
             "urgieren am": offer.urgieren_am,
         }
@@ -53,13 +55,27 @@ class OfferTrackingRepository:
         new_row = [row_map.get(header, "") for header in headers]
         ws.append(new_row)
 
-        # hyperlink handling for "Angebot"
-        if "Angebot" in headers and offer.angebot_pfad:
-            angebot_col = headers.index("Angebot") + 1
+        # hyperlink handling for "Angebot Windows"
+        if "Angebot Windows" in headers and offer.angebot_pfad_windows:
+            angebot_col_windows = headers.index("Angebot Windows") + 1
             row_number = ws.max_row
-            cell = ws.cell(row=row_number, column=angebot_col)
+            cell = ws.cell(row=row_number, column=angebot_col_windows)
             cell.value = "Öffnen"
-            cell.hyperlink = offer.angebot_pfad
+            cell.hyperlink = offer.angebot_pfad_windows
+            cell.font = Font(color="0000FF", underline="single")
+
+        # hyperlink handling for "Angebot MAC"
+        if "Angebot MAC" in headers and offer.angebot_pfad_mac:
+            angebot_col_mac = headers.index("Angebot MAC") + 1
+            row_number = ws.max_row
+            cell = ws.cell(row=row_number, column=angebot_col_mac)
+            cell.value = "Öffnen"
+            cell.hyperlink = Hyperlink(
+                ref=cell.coordinate,
+                location=None,
+                target=offer.angebot_pfad_mac,
+                tooltip="PDF Öffnen"
+            )
             cell.font = Font(color="0000FF", underline="single")
 
         wb.save(self.file_path)

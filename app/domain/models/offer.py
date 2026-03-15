@@ -8,7 +8,8 @@ class Offer:
     angerufen_am: str = ""
     kontaktperson: str = ""
     angebot_nr: str = ""
-    angebot_pfad: str = ""
+    angebot_pfad_mac: str = ""
+    angebot_pfad_windows: str = ""
     bemerkung: str = ""
     urgieren_am: str = ""
 
