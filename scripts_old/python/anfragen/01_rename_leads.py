@@ -4,9 +4,9 @@ import email
 import pdfplumber
 
 BASE_PATHS = [
-    r"C:\Users\PV\OneDrive\ENKO GmbH\Anfragen\voltalux",
-    r"C:\Users\PV\OneDrive\ENKO GmbH\Anfragen\PVALARM",
-    r"C:\Users\PV\OneDrive\ENKO GmbH\Anfragen\photovoltaikAT"
+    r"C:\Users\PV\OneDrive\ENKO GmbH\Leads\voltalux",
+    r"C:\Users\PV\OneDrive\ENKO GmbH\Leads\PVALARM",
+    r"C:\Users\PV\OneDrive\ENKO GmbH\Leads\photovoltaikAT"
 
 ]
 

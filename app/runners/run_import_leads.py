@@ -1,4 +1,4 @@
-from app.config.paths import GLOBAL_LOG_DIR, ANFRAGEN_XLSX, ENKO_LEADS_XLSX
+from app.config.paths import GLOBAL_LOG_DIR, LEADS_XLSX, ENKO_LEADS_XLSX
 from app.core.logging_service import LoggerService
 from app.core.constants import SCRIPT_IMPORT_LEADS
 from app.domain.models.lead import Lead
@@ -10,7 +10,7 @@ from app.excel.enko_leads_repository import ENKOLeadsRepository
 def main():
     logger = LoggerService(GLOBAL_LOG_DIR, SCRIPT_IMPORT_LEADS)
 
-    anfragen_repo = AnfragenRepository(ANFRAGEN_XLSX)
+    anfragen_repo = AnfragenRepository(LEADS_XLSX)
     enko_repo = ENKOLeadsRepository(ENKO_LEADS_XLSX)
     lead_service = LeadService(anfragen_repo, enko_repo)
 

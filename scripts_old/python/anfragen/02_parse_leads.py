@@ -12,11 +12,11 @@ from openpyxl import load_workbook
 # ============================================================
 # ---------------------- Settings ----------------------------
 # ============================================================
-FOLDER_PATH_VOLTALUX = r"C:\Users\PV\OneDrive\ENKO GmbH\Anfragen\Voltalux"
-FOLDER_PATH_PHOTOVOLTAIKANLAGEAT = r"C:\Users\PV\OneDrive\ENKO GmbH\Anfragen\photovoltaikAT"
-FOLDER_PATH_PVALARM = r"C:\Users\PV\OneDrive\ENKO GmbH\Anfragen\PVALARM"
+FOLDER_PATH_VOLTALUX = r"C:\Users\PV\OneDrive\ENKO GmbH\Leads\Voltalux"
+FOLDER_PATH_PHOTOVOLTAIKANLAGEAT = r"C:\Users\PV\OneDrive\ENKO GmbH\Leads\photovoltaikAT"
+FOLDER_PATH_PVALARM = r"C:\Users\PV\OneDrive\ENKO GmbH\Leads\PVALARM"
 
-EXCEL_PATH = r"C:\Users\PV\OneDrive\ENKO GmbH\Anfragen\Anfragen.xlsx"
+EXCEL_PATH = r"C:\Users\PV\OneDrive\ENKO GmbH\Leads\Leads.xlsx"
 
 # Starting question in MSG files
 START_QUESTION = "Welche Kategorie trifft auf Sie zu?"

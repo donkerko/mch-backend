@@ -1,15 +1,15 @@
 from app.config.paths import (
     GLOBAL_LOG_DIR,
-    ANFRAGEN_VOLTALUX_DIR,
-    ANFRAGEN_PHOTOVOLTAIKANLAGEAT_DIR,
-    ANFRAGEN_PVALARM_DIR,
+    LEADS_VOLTALUX_DIR,
+    LEADS_PHOTOVOLTAIKANLAGEAT_DIR,
+    LEADS_PVALARM_DIR,
 )
 from app.core.logging_service import LoggerService
 from app.intake.outlook_client import OutlookClient
 from app.intake.mail_classifier import MailClassifier
-from app.intake.anfragen_mail_collector import AnfragenMailCollector
+from app.intake.leads_mail_collector import LeadsMailCollector
 
-SCRIPT_NAME = "run_collect_anfragen"
+SCRIPT_NAME = "run_collect_leads"
 
 
 def main():
@@ -22,7 +22,7 @@ def main():
     rules = [
         {
             "source_name": "photovoltaikanlageAT",
-            "target_dir": ANFRAGEN_PHOTOVOLTAIKANLAGEAT_DIR,
+            "target_dir": LEADS_PHOTOVOLTAIKANLAGEAT_DIR,
             "processed_folder_path": ["Posteingang", "Gespeichert"],
             "sender_contains": ["kontakt@leadmail.no"],
             "subject_contains": ["photovoltaikanlage.at"],
@@ -30,14 +30,14 @@ def main():
         },
         {
             "source_name": "Voltalux",
-            "target_dir": ANFRAGEN_VOLTALUX_DIR,
+            "target_dir": LEADS_VOLTALUX_DIR,
             "processed_folder_path": ["Posteingang", "Gespeichert"],
             "subject_contains": ["voltalux"],
             "attachment_extensions": [".pdf", ".msg"],
         },
         {
             "source_name": "PVALARM",
-            "target_dir": ANFRAGEN_PVALARM_DIR,
+            "target_dir": LEADS_PVALARM_DIR,
             "processed_folder_path": ["Posteingang", "Gespeichert"],
             "body_contains": ["Anfragealarm"],
             "attachment_extensions": [".msg"],
@@ -48,7 +48,7 @@ def main():
 
     source_folder = outlook.get_folder(mailbox_name, inbox_folder_path)
 
-    collector = AnfragenMailCollector(
+    collector = LeadsMailCollector(
         logger=logger,
         outlook_client=outlook,
         mailbox_name=mailbox_name,
@@ -56,9 +56,9 @@ def main():
         classifier=classifier,
     )
 
-    logger.log_global("SYSTEM", "Collect-Anfragen gestartet")
+    logger.log_global("SYSTEM", "Collect-Leads gestartet")
     collector.process()
-    logger.log_global("SYSTEM", "Collect-Anfragen abgeschlossen")
+    logger.log_global("SYSTEM", "Collect-Leads abgeschlossen")
 
 
 if __name__ == "__main__":

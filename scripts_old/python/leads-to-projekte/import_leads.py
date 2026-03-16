@@ -6,7 +6,7 @@ from datetime import datetime
 # CONFIG
 # ==========================================
 
-ANFRAGEN_PATH = r"C:\Users\PV\OneDrive\ENKO GmbH\Anfragen"
+LEADS_PATH = r"C:\Users\PV\OneDrive\ENKO GmbH\Leads"
 PROJEKTE_PATH = r"C:\Users\PV\OneDrive\ENKO GmbH\Projekte"
 
 GLOBAL_LOG_DIR = r"C:\Users\PV\OneDrive\backend\logs"
@@ -119,7 +119,7 @@ def create_project_folder(name):
 
 def process():
 
-    for root, dirs, files in os.walk(ANFRAGEN_PATH):
+    for root, dirs, files in os.walk(LEADS_PATH):
 
         for file in files:
 

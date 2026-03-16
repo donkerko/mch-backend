@@ -5,7 +5,7 @@ from app.intake.attachment_name_resolver import AttachmentNameResolver
 from app.intake.filename_builder import slug, ensure_unique_path, build_unknown_token
 
 
-class AnfragenMailCollector:
+class LeadsMailCollector:
     def __init__(
         self,
         logger,
